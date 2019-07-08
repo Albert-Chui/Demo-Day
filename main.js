@@ -1,4 +1,4 @@
-var you = "fat"
-if (you = 'fat') {
+var you = "killed"
+if (you = 'killed') {
     var you = 'are dead'
 }

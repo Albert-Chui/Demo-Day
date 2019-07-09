@@ -20,60 +20,52 @@
    grid-auto-rows: 50px;
    grid-auto-columns: 50px;
  }
- .red { grid-area: 1 / 1 / 2 / 2; }
- .orange { grid-area: 1 / 2 / 2 / 3; }
- .yellow { grid-area: 1 / 3 / 2 / 4; }
- .green { grid-area: 2 / 1 / 3 / 2; }
- .navy { grid-area: 2 / 2 / 3 / 3; }
- .brown { grid-area: 2 / 3 / 3 / 4; }
- .black { grid-area: 3/ 1 / 3 / 2; }
- .gold { grid-area: 3 / 2 / 3 / 3; }
- .blue { grid-area: 3 / 3 / 3 / 4; }
- ._h_tml square { grid-area: 3 / 3 / 3 / 4; }
- .h_t_ml square { grid-area: 3 / 3 / 3 / 4; }
- .ht_m_l square { grid-area: 3 / 3 / 3 / 4; }
- .htm_l_ square { grid-area: 3 / 3 / 3 / 4; }
- .m_a_in.jss square { grid-area: 3 / 3 / 3 / 4; }
- .ma_i_n.jss square { grid-area: 3 / 3 / 3 / 4; }
- .mai_n_.jss square { grid-area: 3 / 3 / 3 / 4; }
- .main_._jss square { grid-area: 3 / 3 / 3 / 4; }
- .main._j_ss square { grid-area: 3 / 3 / 3 / 4; }
- .main.j_s_s square { grid-area: 3 / 3 / 3 / 4; }
- .main.js_s_ square { grid-area: 3 / 3 / 3 / 4; }
- .n_a_v square { grid-area: 3 / 3 / 3 / 4; }
- .na_v_ square { grid-area: 3 / 3 / 3 / 4; }
- ._c_ss square { grid-area: 3 / 3 / 3 / 4; }
- .cs_s_ square { grid-area: 3 / 3 / 3 / 4; }
- .s_t_yle square { grid-area: 3 / 3 / 3 / 4; }
- .st_y_le square { grid-area: 3 / 3 / 3 / 4; }
- .sty_l_e square { grid-area: 3 / 3 / 3 / 4; }
- .styl_e_ square { grid-area: 3 / 3 / 3 / 4; }
- .j_a_vascript square { grid-area: 3 / 3 / 3 / 4; }
- .ja_v_ascript square { grid-area: 3 / 3 / 3 / 4; }
- .jav_a_script square { grid-area: 3 / 3 / 3 / 4; }
- .java_s_cript square { grid-area: 3 / 3 / 3 / 4; }
- .javas_c_ript square { grid-area: 3 / 3 / 3 / 4; }
- .javasc_r_ipt square { grid-area: 3 / 3 / 3 / 4; }
- .javascr_i_pt square { grid-area: 3 / 3 / 3 / 4; }
- .javascri_p_t square { grid-area: 3 / 3 / 3 / 4; }
- .javascrip_t_ square { grid-area: 3 / 3 / 3 / 4; }
- .i_n_dex square { grid-area: 3 / 3 / 3 / 4; }
- .in_d_ex square { grid-area: 3 / 3 / 3 / 4; }
- .ind_e_x square { grid-area: 3 / 3 / 3 / 4; }
- .inde_x_ square { grid-area: 3 / 3 / 3 / 4; }
- .p_r_ogramming square { grid-area: 3 / 3 / 3 / 4; }
- .pr_o_gramming square { grid-area: 3 / 3 / 3 / 4; }
- .pro_g_ramming square { grid-area: 3 / 3 / 3 / 4; }
- .prog_r_amming square { grid-area: 3 / 3 / 3 / 4; }
- .progr_a_mming square { grid-area: 3 / 3 / 3 / 4; }
- .progra_m_ming square { grid-area: 3 / 3 / 3 / 4; }
- .program_m_ing square { grid-area: 3 / 3 / 3 / 4; }
- .programm_i_ng square { grid-area: 3 / 3 / 3 / 4; }
- .programmi_n_g square { grid-area: 3 / 3 / 3 / 4; }
- .programmin_g_ square { grid-area: 3 / 3 / 3 / 4; }
- .c_o_ding square { grid-area: 3 / 3 / 3 / 4; }
- .co_d_ing square { grid-area: 3 / 3 / 3 / 4; }
- .cod_i_ng square { grid-area: 3 / 3 / 3 / 4; }
- .codi_n_g square { grid-area: 3 / 3 / 3 / 4; }
- .codin_g_ square { grid-area: 3 / 3 / 3 / 4; }
 
+
+ ._h_tml { grid-area: 1 / 1 / 2 / 2; }
+ .h_t_ml { grid-area: 2 / 1 / 3 / 2; }
+ .ht_m_l { grid-area: 3 / 1 / 4 / 2; }
+ .htm_l_ { grid-area: 4 / 1 / 5 / 2; }
+ .m_a_in.jss { grid-area: 3 / 2 / 4 / 3; }
+ .ma_i_n.jss { grid-area: 3 / 3 / 4 / 4; }
+ .mai_n_.jss { grid-area: 3 / 4 / 4 / 5; }
+ .main_._jss { grid-area: 3 / 5 / 4 / 6; }
+ .main._j_ss { grid-area: 3 / 6 / 4 / 7; }
+ .main.j_s_s { grid-area: 3 / 7 / 4 / 8; }
+ .main.js_s_ { grid-area: 3 / 8 / 3 / 9; }
+ .n_a_v { grid-area: 4 / 4 / 5 / 5; }
+ .na_v_ { grid-area: 5 / 4 / 6 / 5; }
+ ._c_ss { grid-area: 2 / 8 / 3 / 9; }
+ .cs_s_ { grid-area: 4 / 8 / 5 / 9; }
+ .s_t_yle { grid-area: 4 / 9 / 5 / 10; }
+ .st_y_le { grid-area: 4 / 10 / 5 / 11; }
+ .sty_l_e { grid-area: 4 / 11 / 5 / 12; }
+ .styl_e_ { grid-area: 4 / 12 / 5 / 13; }
+ .j_a_vascript { grid-area: 4 / 6 / 5 / 7; }
+ .ja_v_ascript { grid-area: 5 / 6 / 6 / 7; }
+ .jav_a_script { grid-area: 6 / 6 / 7 / 7; }
+ .java_s_cript { grid-area: 7 / 6 / 8 / 7; }
+ .javas_c_ript { grid-area: 8 / 6 / 9 / 7; }
+ .javasc_r_ipt { grid-area: 9 / 6 / 10 / 7; }
+ .javascr_i_pt { grid-area: 10 / 6 / 11 / 7; }
+ .javascri_p_t { grid-area: 11 / 6 / 12 / 7; }
+ .javascrip_t_ { grid-area: 12 / 6 / 13 / 7; }
+ .i_n_dex { grid-area: 10 / 7 / 11 / 8; }
+ .in_d_ex { grid-area: 10 / 8 / 11 / 9; }
+ .ind_e_x { grid-area: 10 / 9 / 11 / 10; }
+ .inde_x_ { grid-area: 10 / 10 / 11 / 11; }
+ .p_r_ogramming { grid-area: 11 / 6 / 12 / 7; }
+ .pr_o_gramming { grid-area: 11 / 7 / 12 / 8; }
+ .pro_g_ramming { grid-area: 11 / 8 / 12 / 9; }
+ .prog_r_amming { grid-area: 11 / 9  / 12 / 10; }
+ .progr_a_mming { grid-area: 11 / 10 / 12 / 11; }
+ .progra_m_ming { grid-area: 11 / 11 / 12 / 12; }
+ .program_m_ing { grid-area: 11 / 12 / 12 / 13; }
+ .programm_i_ng { grid-area: 11 / 13 / 12 / 14; }
+ .programmi_n_g { grid-area: 11 / 14 / 12 / 15; }
+ .programmin_g_ { grid-area: 11 / 15 / 12 / 16; }
+ .c_o_ding { grid-area: 2 / 8 / 3 / 9; }
+ .co_d_ing { grid-area: 2 / 9 / 3 / 10; }
+ .cod_i_ng { grid-area: 2 / 10 / 3 / 11; }
+ .codi_n_g { grid-area: 2 / 11 / 3 / 12; }
+ .codin_g_ { grid-area: 2 / 12 / 3 / 13; }

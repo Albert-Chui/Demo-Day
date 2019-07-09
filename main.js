@@ -1,4 +1,5 @@
 var you = "killed"
 if (you = 'killed') {
-    var you = 'are dead'
+     you = 'are dead'
 }
+else (you = "alive?")

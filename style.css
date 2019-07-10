@@ -12,15 +12,22 @@
     height: 50px;
     width: 50px;
     background-color: white;
-    border: 5px solid black;
+    border: solid black;
+    text-align: center;
   }
 
  .grid {
    display: grid;
    grid-auto-rows: 50px;
    grid-auto-columns: 50px;
+    border:1px solid;
  }
-
+ .gridTest {
+    display: grid;
+    grid-auto-rows: 50px;
+    grid-auto-columns: 50px;
+    padding-left: 300px;
+  }
 
  ._h_tml { grid-area: 1 / 1 / 2 / 2; }
  .h_t_ml { grid-area: 2 / 1 / 3 / 2; }

@@ -2,7 +2,7 @@
     color :red;
 }
 #trivia{
-    color :grey
+    color :black
 }
 .center{
     text-align: center
@@ -26,6 +26,14 @@
    grid-auto-columns: 50px;
     border:1px solid;
  }
+
+ .x {
+     
+    text-align: center;
+ }
+.v {
+    text-align: center;
+}
  .gridTest {
     display: grid;
     grid-auto-rows: 50px;

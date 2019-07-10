@@ -14,7 +14,10 @@
     background-color: white;
     border: solid black;
     text-align: center;
-    font-size: 150%
+    font-size: 150%;
+  }
+  ._h_tml {
+      font-size: 75%;
   }
 
  .grid {

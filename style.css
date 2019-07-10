@@ -69,6 +69,8 @@
  .cod_i_ng { grid-area: 2 / 11 / 3 / 12; }
  .codi_n_g { grid-area: 2 / 12 / 3 / 13; }
  .codin_g_ { grid-area: 2 / 13 / 3 / 14; }
-
+.text {
+    color:blue;
+}
  
 

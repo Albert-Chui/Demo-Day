@@ -40,6 +40,7 @@
     grid-auto-rows: 50px;
     grid-auto-columns: 50px;
     padding-left: 300px;
+    grid-gap: 1px;
   }
 
   ._h_tmls { grid-area: 1 / 1 / 2 / 2; }

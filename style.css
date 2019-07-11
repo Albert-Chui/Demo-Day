@@ -15,7 +15,7 @@
     border: solid black;
     text-align: center;
     font-size: 150%;
-  }
+ }
   ._h_tml {
       font-size: 34%;
       text-align: left;
@@ -25,7 +25,7 @@
    display: grid;
    grid-auto-rows: 50px;
    grid-auto-columns: 50px;
-    border:1px solid;
+
  }
 
  .x {

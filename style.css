@@ -16,6 +16,14 @@
     text-align: center;
     font-size: 150%;
  }
+ .squares {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border: solid black;
+    text-align: center;
+    font-size: 150%;
+ }
   ._h_tml {
       font-size: 34%;
       text-align: left;

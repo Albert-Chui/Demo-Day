@@ -12,9 +12,10 @@
     height: 50px;
     width: 50px;
     background-color: white;
-    border: solid black;
     text-align: center;
     font-size: 150%;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
  }
  .squares {
     height: 50px;
@@ -23,6 +24,7 @@
     border: solid black;
     text-align: center;
     font-size: 150%;
+
  }
   ._h_tml {
       font-size: 45%;
@@ -33,7 +35,6 @@
    display: grid;
    grid-auto-rows: 50px;
    grid-auto-columns: 50px;
-
  }
 
  .x {

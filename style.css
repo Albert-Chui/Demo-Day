@@ -15,7 +15,15 @@
     border: solid black;
     text-align: center;
     font-size: 150%;
-  }
+ }
+ .squares {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border: solid black;
+    text-align: center;
+    font-size: 150%;
+ }
   ._h_tml {
       font-size: 34%;
       text-align: left;
@@ -25,7 +33,7 @@
    display: grid;
    grid-auto-rows: 50px;
    grid-auto-columns: 50px;
-    border:1px solid;
+
  }
 
  .x {
@@ -40,6 +48,7 @@
     grid-auto-rows: 50px;
     grid-auto-columns: 50px;
     padding-left: 300px;
+    grid-gap: 1px;
   }
 
   ._h_tmls { grid-area: 1 / 1 / 2 / 2; }

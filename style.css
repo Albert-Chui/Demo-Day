@@ -14,8 +14,8 @@
     background-color: white;
     text-align: center;
     font-size: 150%;
-    border-top: 1px solid black;
-    border-right: 1px solid black;
+    border-top: 3px solid black;
+    border-right: 3px solid black;
  }
  .squares {
     height: 50px;
@@ -25,6 +25,15 @@
     text-align: center;
     font-size: 150%;
 
+ }
+ .squareL {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    text-align: center;
+    font-size: 150%;
+    border-top: 2px solid black;
+    border-right: 3px solid black;
  }
   ._h_tml {
       font-size: 45%;
@@ -107,64 +116,70 @@
     color:blue;
 }
 
-._h_tml { border-left: 1px solid black }
-.h_t_ml { border-left: 1px solid black }
-.ht_m_l { border-left: 1px solid black }
+._h_tml { border-left: 3px solid black }
+.h_t_ml { border-left: 3px solid black }
+.ht_m_l { border-left: 3px solid black }
 .htm_l_ { 
-    border-left: 1px solid black;
-    border-bottom: 1px solid black 
+    border-left: 3px solid black;
+    border-bottom: 3px solid black 
    }
-   .m_a_in-jss { border-bottom: 1px solid black; }
-   .ma_i_n-jss { border-bottom: 1px solid black; }
-   .main_-_jss { border-bottom: 1px solid black; }
-   .main-j_s_s { border-bottom: 1px solid black; }
+   .m_a_in-jss { border-bottom: 3px solid black; }
+   .ma_i_n-jss { border-bottom: 3px solid black; }
+   .main_-_jss { border-bottom: 3px solid black; }
+   .main-j_s_s { border-bottom: 3px solid black; }
+   .main-_j_ss { border-bottom: 3px solid black; }
+   .mai_n_-jss { border-bottom: 3px solid black; }
 
-   .c_o_ding { border-bottom: 1px solid black; }
-   .co_d_ing { border-bottom: 1px solid black; }
-   .cod_i_ng { border-bottom: 1px solid black; }
-   .codi_n_g { border-bottom: 1px solid black; }
-   .codin_g_ { border-bottom: 1px solid black; }   
+   .c_o_ding { border-bottom: 3px solid black; }
+   .co_d_ing { border-bottom: 3px solid black; }
+   .cod_i_ng { border-bottom: 3px solid black; }
+   .codi_n_g { border-bottom: 3px solid black; }
+   .codin_g_ { border-bottom: 3px solid black; }   
 
-._c_ss { border-left: 1px solid black }   
+._c_ss { border-left: 3px solid black }   
 .cs_s_ { 
-    border-bottom: 1px solid black;
-    border-left: 1px solid black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
 }
 
-.s_t_yle { border-bottom: 1px solid black; }
- .st_y_le { border-bottom: 1px solid black; }
- .sty_l_e { border-bottom: 1px solid black; }
- .styl_e_ { border-bottom: 1px solid black; } 
+.s_t_yle { border-bottom: 3px solid black; }
+ .st_y_le { border-bottom: 3px solid black; }
+ .sty_l_e { border-bottom: 3px solid black; }
+ .styl_e_ { border-bottom: 3px solid black; } 
 
- .p_r_ogramming {border-bottom: 1px solid black; }
- .pr_o_gramming { border-bottom: 1px solid black;}
- .pro_g_ramming { border-bottom: 1px solid black; }
- .prog_r_amming { border-bottom: 1px solid black; }
- .progr_a_mming { border-bottom: 1px solid black; }
- .progra_m_ming { border-bottom: 1px solid black; }
- .program_m_ing { border-bottom: 1px solid black; }
- .programm_i_ng { border-bottom: 1px solid black; }
- .programmi_n_g { border-bottom: 1px solid black; }
- .programmin_g_ { border-bottom: 1px solid black; }
+ .p_r_ogramming {border-bottom: 3px solid black; }
+ .pr_o_gramming { border-bottom: 3px solid black;}
+ .pro_g_ramming { border-bottom: 3px solid black; }
+ .prog_r_amming { border-bottom: 3px solid black; }
+ .progr_a_mming { border-bottom: 3px solid black; }
+ .progra_m_ming { border-bottom: 3px solid black; }
+ .program_m_ing { border-bottom: 3px solid black; }
+ .programm_i_ng { border-bottom: 3px solid black; }
+ .programmi_n_g { border-bottom: 3px solid black; }
+ .programmin_g_ { border-bottom: 3px solid black; }
 
  .javascrip_t_ { 
-     border-bottom: 1px solid black;
-     border-left: 1px solid black;
+     border-bottom: 3px solid black;
+     border-left: 3px solid black;
     }
 
- .j_a_vascript { border-left: 1px solid black; }
- .ja_v_ascript { border-left: 1px solid black; }
- .jav_a_script { border-left: 1px solid black; }
- .java_s_cript { border-left: 1px solid black; }
- .javas_c_ript { border-left: 1px solid black; }
- .javasc_r_ipt { border-left: 1px solid black; }
- .javascr_i_pt { border-left: 1px solid black; }
- .javascri_p_t { border-left: 1px solid black; }
+ .j_a_vascript { 
+     border-left: 3px solid black;
+    border-top: 1px solid black; }
+ .ja_v_ascript { border-left: 3px solid black; }
+ .jav_a_script { border-left: 3px solid black; }
+ .java_s_cript { border-left: 3px solid black; }
+ .javas_c_ript { border-left: 3px solid black; }
+ .javasc_r_ipt { border-left: 3px solid black; }
+ .javascr_i_pt { border-left: 3px solid black; }
+ .javascri_p_t { border-left: 3px solid black; }
 
- .n_a_v { border-left: 1px solid black; }
+ .n_a_v { 
+     border-left: 3px solid black;
+    border-top: 1px solid black }
  .na_v_ { 
-     border-left: 1px solid black; 
-     border-bottom: 1px solid black;
+     border-left: 3px solid black; 
+     border-bottom: 3px solid black;
 }
 
 

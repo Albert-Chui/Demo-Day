@@ -6,7 +6,14 @@
 }
 .center{
     text-align: center
-
+}
+.button1 {border-radius: 50%;
+background-color: darkblue;
+color: white;
+}
+.button2 {border-radius: 50%;
+    background-color:orange;
+    color: white;
 }
 .square {
     height: 50px;

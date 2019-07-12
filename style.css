@@ -125,10 +125,13 @@
    .codi_n_g { border-bottom: 1px solid black; }
    .codin_g_ { border-bottom: 1px solid black; }   
 
-.s_t_yle { 
+._c_ss { border-left: 1px solid black }   
+.cs_s_ { 
     border-bottom: 1px solid black;
     border-left: 1px solid black;
 }
+
+.s_t_yle { border-bottom: 1px solid black; }
  .st_y_le { border-bottom: 1px solid black; }
  .sty_l_e { border-bottom: 1px solid black; }
  .styl_e_ { border-bottom: 1px solid black; } 
@@ -144,7 +147,10 @@
  .programmi_n_g { border-bottom: 1px solid black; }
  .programmin_g_ { border-bottom: 1px solid black; }
 
- .javascrip_t_ { border-bottom: 1px solid black; }
+ .javascrip_t_ { 
+     border-bottom: 1px solid black;
+     border-left: 1px solid black;
+    }
 
  .j_a_vascript { border-left: 1px solid black; }
  .ja_v_ascript { border-left: 1px solid black; }

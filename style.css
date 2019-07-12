@@ -42,11 +42,54 @@ color: white;
     border-top: 2px solid black;
     border-right: 3px solid black;
  }
-  ._h_tml {
+  ._h_tml-number {
       font-size: 45%;
       text-align: left;
+      padding-left:3px;
+      grid-area: 1 / 1 / 2 / 2; 
   }
-
+  ._c_ss-number {
+    font-size: 45%;
+    text-align: left;
+    padding-left:3px;
+    grid-area: 2 / 8 / 3 / 9;
+  }
+  .ht_m_l-number {
+    font-size: 45%;
+    text-align: left;
+    padding-left:3px;
+    grid-area: 3 / 1 / 4 / 2; 
+  }
+.mai_n_-jss-number {
+    font-size: 45%;
+    text-align: left;
+    padding-left:3px;
+    grid-area: 3 / 4 / 4 / 5; 
+}
+.main-_j_ss-number {
+    font-size: 45%;
+    text-align: left;
+    padding-left:3px;
+    grid-area: 3 / 6 / 4 / 7;
+}
+.cs_s_-number {
+    font-size: 45%;
+    text-align: left;
+    padding-left:3px;
+    grid-area: 4 / 8 / 5 / 9; 
+}
+.javascr_i_pt-number {
+    font-size: 45%;
+    text-align: left;
+    padding-left:3px;
+    grid-area: 10 / 6 / 11 / 7; 
+} 
+.javascri_p_t-number {
+    font-size: 45%;
+    text-align: left;
+    padding-left:3px;
+    grid-area: 11 / 6 / 12 / 7;
+}
  .grid {
    display: grid;
    grid-auto-rows: 50px;

@@ -106,12 +106,108 @@
 .text {
     color:blue;
 }
+
+._h_tml { border-left: 1px solid black }
+.h_t_ml { border-left: 1px solid black }
+.ht_m_l { border-left: 1px solid black }
+.htm_l_ { 
+    border-left: 1px solid black;
+    border-bottom: 1px solid black 
+   }
+   .m_a_in-jss { border-bottom: 1px solid black; }
+   .ma_i_n-jss { border-bottom: 1px solid black; }
+   .main_-_jss { border-bottom: 1px solid black; }
+   .main-j_s_s { border-bottom: 1px solid black; }
+
+   .c_o_ding { border-bottom: 1px solid black; }
+   .co_d_ing { border-bottom: 1px solid black; }
+   .cod_i_ng { border-bottom: 1px solid black; }
+   .codi_n_g { border-bottom: 1px solid black; }
+   .codin_g_ { border-bottom: 1px solid black; }   
+
+.s_t_yle { 
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+ .st_y_le { border-bottom: 1px solid black; }
+ .sty_l_e { border-bottom: 1px solid black; }
+ .styl_e_ { border-bottom: 1px solid black; } 
+
+ .p_r_ogramming {border-bottom: 1px solid black; }
+ .pr_o_gramming { border-bottom: 1px solid black;}
+ .pro_g_ramming { border-bottom: 1px solid black; }
+ .prog_r_amming { border-bottom: 1px solid black; }
+ .progr_a_mming { border-bottom: 1px solid black; }
+ .progra_m_ming { border-bottom: 1px solid black; }
+ .program_m_ing { border-bottom: 1px solid black; }
+ .programm_i_ng { border-bottom: 1px solid black; }
+ .programmi_n_g { border-bottom: 1px solid black; }
+ .programmin_g_ { border-bottom: 1px solid black; }
+
+ .javascrip_t_ { border-bottom: 1px solid black; }
+
+ .j_a_vascript { border-left: 1px solid black; }
+ .ja_v_ascript { border-left: 1px solid black; }
+ .jav_a_script { border-left: 1px solid black; }
+ .java_s_cript { border-left: 1px solid black; }
+ .javas_c_ript { border-left: 1px solid black; }
+ .javasc_r_ipt { border-left: 1px solid black; }
+ .javascr_i_pt { border-left: 1px solid black; }
+ .javascri_p_t { border-left: 1px solid black; }
+
+ .n_a_v { border-left: 1px solid black; }
+ .na_v_ { 
+     border-left: 1px solid black; 
+     border-bottom: 1px solid black;
+}
+
+
+
 /*Solution boxes*/ 
-._h_tmls { grid-area: 1 / 1 / 2 / 2; }
-.ht_m_ls { grid-area: 3 / 1 / 4 / 2; }
-.mai_n_-jsss { grid-area: 3 / 4 / 4 / 5; }
-.main-_j_sss { grid-area: 3 / 6 / 4 / 7; }
-.cs_s_s { grid-area: 4 / 8 / 5 / 9; }
-._c_sss { grid-area: 2 / 8 / 3 / 9; }
-.javascr_i_pts { grid-area: 10 / 6 / 11 / 7; }
-.javascri_p_ts { grid-area: 11 / 6 / 12 / 7; }
+._h_tmlS { grid-area: 1 / 1 / 2 / 2; }
+.h_t_mlS { grid-area: 2 / 1 / 3 / 2; }
+.ht_m_lS { grid-area: 3 / 1 / 4 / 2; }
+.htm_l_S { grid-area: 4 / 1 / 5 / 2; }
+.m_a_in-jssS { grid-area: 3 / 2 / 4 / 3; }
+.ma_i_n-jssS { grid-area: 3 / 3 / 4 / 4; }
+.mai_n_-jssS { grid-area: 3 / 4 / 4 / 5; }
+.main_-_jssS { grid-area: 3 / 5 / 4 / 6; }
+.main-_j_ssS { grid-area: 3 / 6 / 4 / 7; }
+.main-j_s_sS { grid-area: 3 / 7 / 4 / 8; }
+.main-js_s_S { grid-area: 3 / 8 / 3 / 9; }
+.n_a_vS { grid-area: 4 / 4 / 5 / 5; }
+.na_v_S { grid-area: 5 / 4 / 6 / 5; }
+._c_ssS { grid-area: 2 / 8 / 3 / 9; }
+.cs_s_S { grid-area: 4 / 8 / 5 / 9; }
+.s_t_yleS { grid-area: 4 / 9 / 5 / 10; }
+.st_y_leS { grid-area: 4 / 10 / 5 / 11; }
+.sty_l_eS { grid-area: 4 / 11 / 5 / 12; }
+.styl_e_S { grid-area: 4 / 12 / 5 / 13; }
+.j_a_vascriptS { grid-area: 4 / 6 / 5 / 7; }
+.ja_v_ascriptS { grid-area: 5 / 6 / 6 / 7; }
+.jav_a_scriptS { grid-area: 6 / 6 / 7 / 7; }
+.java_s_criptS { grid-area: 7 / 6 / 8 / 7; }
+.javas_c_riptS { grid-area: 8 / 6 / 9 / 7; }
+.javasc_r_iptS { grid-area: 9 / 6 / 10 / 7; }
+.javascr_i_ptS { grid-area: 10 / 6 / 11 / 7; }
+.javascri_p_tS { grid-area: 11 / 6 / 12 / 7; }
+.javascrip_t_S { grid-area: 12 / 6 / 13 / 7; }
+.i_n_dexS { grid-area: 10 / 7 / 11 / 8; }
+.in_d_exS { grid-area: 10 / 8 / 11 / 9; }
+.ind_e_xS { grid-area: 10 / 9 / 11 / 10; }
+.inde_x_S { grid-area: 10 / 10 / 11 / 11; }
+.p_r_ogrammingS { grid-area: 11 / 7 / 12 / 8; }
+.pr_o_grammingS { grid-area: 11 / 8 / 12 / 9; }
+.pro_g_rammingS { grid-area: 11 / 9 / 12 / 10; }
+.prog_r_ammingS { grid-area: 11 / 10  / 12 / 11; }
+.progr_a_mmingS { grid-area: 11 / 11 / 12 / 12; }
+.progra_m_mingS { grid-area: 11 / 12 / 12 / 13; }
+.program_m_ingS { grid-area: 11 / 13 / 12 / 14; }
+.programm_i_ngS { grid-area: 11 / 14 / 12 / 15; }
+.programmi_n_gS { grid-area: 11 / 15 / 12 / 16; }
+.programmin_g_S { grid-area: 11 / 16 / 12 / 17; }
+.c_o_dingS { grid-area: 2 / 9 / 3 / 10; }
+.co_d_ingS { grid-area: 2 / 10 / 3 / 11; }
+.cod_i_ngS { grid-area: 2 / 11 / 3 / 12; }
+.codi_n_gS { grid-area: 2 / 12 / 3 / 13; }
+.codin_g_S { grid-area: 2 / 13 / 3 / 14; }

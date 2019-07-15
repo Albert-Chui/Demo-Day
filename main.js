@@ -29,7 +29,10 @@ var list = []
 // make array with correct answers
 var list = ["yawn", "dog", "jog", "chop", "pop"];
 //add button for input then make an event handler for that button
-document.querySelector('y').onclick = 
+document.querySelector('#y').onclick = 
 //make a function to add user input to array
 function () {}
+let list = 
+document.querySelector('#text').value
+console.log()
 //if else statement 

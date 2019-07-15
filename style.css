@@ -18,6 +18,13 @@ color: white;
 #memory {
     color :white;
 }
+.boxman {
+    height: 100px;
+    width: 100px;
+    background-color: blue
+    text-align: center;
+}
+
 .answerU {
     grid-area : 3/21/4/25;
 }
@@ -37,7 +44,6 @@ color: white;
     border: 4px solid black;
     text-align: center;
     font-size: 150%;
-
  }
  .squareL {
     height: 50px;

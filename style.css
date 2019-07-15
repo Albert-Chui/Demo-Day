@@ -21,8 +21,14 @@ color: white;
 .boxman {
     height: 100px;
     width: 100px;
-    background-color: blue
+    background-color: blue;
     text-align: center;
+}
+#name {
+    color : white;
+}
+#Epic {
+    color : white;
 }
 #tittle {
     color: White;
@@ -30,6 +36,7 @@ color: white;
 
 .answerU {
     grid-area : 3/21/4/25;
+    Height: 40px;
 }
 .square {
     height: 50px;

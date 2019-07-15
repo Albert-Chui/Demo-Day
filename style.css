@@ -30,6 +30,7 @@ color: white;
 
 .answerU {
     grid-area : 3/21/4/25;
+    Height: 40px;
 }
 .square {
     height: 50px;

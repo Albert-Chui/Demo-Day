@@ -23,3 +23,7 @@ function defaultText()
     display.innerHTML = ":Your Hint Here:";
 }
  
+var userA =  document.querySelector(".answerU").value 
+function cli() {
+    if userA = j || 
+}

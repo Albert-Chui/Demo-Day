@@ -45,6 +45,11 @@ color: white;
     border-top: 2px solid black;
     border-right: 3px solid black;
  }
+ .space {
+     height: 6px;
+     width: 6px;
+     
+ }
   ._h_tml-number {
       font-size: 45%;
       text-align: left;

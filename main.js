@@ -1,8 +1,8 @@
-var you = "killed"
-if (you = 'killed') {
-     you = 'are dead'
-}
-else (you = "alive?")
+
+// const input = 
+// const inputValue = 
+// const output =
+
 
 function Myfunction() {
 var hi = document.querySelector(".square").value

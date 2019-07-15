@@ -33,6 +33,9 @@ color: white;
 #tittle {
     color: White;
 }
+#gamer { 
+    color : white;
+}
 
 .answerU {
     grid-area : 3/21/4/25;

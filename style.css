@@ -24,6 +24,9 @@ color: white;
     background-color: blue;
     text-align: center;
 }
+#tittle {
+    color: White;
+}
 
 .answerU {
     grid-area : 3/21/4/25;

@@ -7,8 +7,9 @@
 function Myfunction() {
 var hi = document.querySelector(".square").value
 var res = hi.toUpperCase()
-document.querySelector(".square").innerHTML = res
+res = document.querySelector(".square").innerHTML 
 }
+
 function changeText(text)
 {
     var display = document.getElementById('text-display');
@@ -37,7 +38,7 @@ document.querySelector('#text').value
 console.log()
 //if else statement 
 
-var userA =  document.querySelector(".answerU").value 
-/*function cli() {
+/*var userA =  document.querySelector(".answerU").value 
+function cli() {
     if userA = j || 
 }*/

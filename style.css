@@ -36,7 +36,7 @@ color: white;
 #gamer { 
     color : white;
 }
-.answerU {
+#answerU {
     grid-area : 3/21/4/25;
     Height: 40px;
 }
@@ -151,9 +151,7 @@ color: white;
      grid-area: 2/22/3/40;
 }
 
-input:focus{
-    border: transparent;
-}
+
 
   ._h_tml { grid-area: 1 / 1 / 2 / 2; }
  .h_t_ml { grid-area: 2 / 1 / 3 / 2; }

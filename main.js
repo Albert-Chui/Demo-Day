@@ -36,3 +36,8 @@ let list =
 document.querySelector('#text').value
 console.log()
 //if else statement 
+
+var userA =  document.querySelector(".answerU").value 
+/*function cli() {
+    if userA = j || 
+}*/

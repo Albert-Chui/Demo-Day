@@ -24,10 +24,18 @@ color: white;
     background-color: blue;
     text-align: center;
 }
+#name {
+    color : white;
+}
+#Epic {
+    color : white;
+}
 #tittle {
     color: White;
 }
-
+#gamer { 
+    color : white;
+}
 .answerU {
     grid-area : 3/21/4/25;
     Height: 40px;
@@ -41,6 +49,7 @@ color: white;
     border-top: 3px solid black;
     border-right: 3px solid black;
  }
+
  .squares {
     height: 50px;
     width: 50px;

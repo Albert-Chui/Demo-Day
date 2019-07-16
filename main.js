@@ -7,8 +7,9 @@
 function Myfunction() {
 var hi = document.querySelector(".square").value
 var res = hi.toUpperCase()
-document.querySelector(".square").innerHTML = res
+res = document.querySelector(".square").innerHTML 
 }
+
 function changeText(text)
 {
     var display = document.getElementById('text-display');

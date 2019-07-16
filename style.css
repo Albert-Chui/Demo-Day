@@ -126,6 +126,10 @@ color: white;
    grid-auto-columns: 50px;
  }
 
+ h1 {
+     color: blue;
+ }
+
  .x {
      
     text-align: center;

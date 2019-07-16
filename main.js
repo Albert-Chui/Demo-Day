@@ -7,8 +7,9 @@
 function Myfunction() {
 var hi = document.querySelector(".square").value
 var res = hi.toUpperCase()
-document.querySelector(".square").innerHTML = res
+res = document.querySelector(".square").innerHTML 
 }
+
 function changeText(text)
 {
     var display = document.getElementById('text-display');
@@ -57,4 +58,17 @@ document.querySelector('#y').onclick = function(){
 
 }
 //make a function to add user input to array
+<<<<<<< HEAD
 // function () {}
+=======
+function () {}
+let list = 
+document.querySelector('#text').value
+console.log()
+//if else statement 
+
+/*var userA =  document.querySelector(".answerU").value 
+function cli() {
+    if userA = j || 
+}*/
+>>>>>>> 7ca41f91abc60cecd7412dcc3671740f693e5565

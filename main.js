@@ -23,16 +23,18 @@ function defaultText()
     display.innerHTML = "";
     display.innerHTML = ":Your Hint Here:";
 }
- 
+//  MEMORY2
 console.log('running')
 //first make an empty array
 var list = []
 // make array with correct answers
 var list1 = ["yawn", "dog", "jog", "chop", "pop"];
+var hidden = document.getElementById("new");
+hidden.style.display = "none";
 //add button for input then make an event handler for that button
 document.querySelector('#y').onclick = function(){
     var input = document.getElementById('text').value;
-        
+     
     console.log('funcion started')
     //if else statement 
     
@@ -43,28 +45,26 @@ document.querySelector('#y').onclick = function(){
             if (input == list1[i]) {
                 list[i]=input;
                 console.log('correct'); 
+                document.getElementById('result').innerHTML = 'correct';
                 break;
             } else {
                 console.log('incorrect');
-                
+                document.getElementById('result').innerHTML = 'incorrect';
             }
         
     }if (list.length == list1.length){
-        var div = ( document.all ) ? document.all['myDiv'] : document.getElementById('myDiv');
-        div.innerHTML = '<a href="memory3.html"><button class="button1">Click to continue</button></a>';
+        
         console.log('everything is cooreet');
+        hidden.style.display = "block";
 
     }
 
 }
+
+
 //make a function to add user input to array
-function  {
-let list = 
-document.querySelector('#text').value
-console.log()
 //if else statement 
 
-}
 /*var userA =  document.querySelector(".answerU").value 
 function cli() {
     if userA = j || 

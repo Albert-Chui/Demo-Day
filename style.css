@@ -131,8 +131,12 @@ color: white;
  }
 
  .x {
+ 
      
     text-align: center;
+ }
+ #tag {
+     color :white;
  }
 .v {
     text-align: center;

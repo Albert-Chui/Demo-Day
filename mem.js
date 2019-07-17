@@ -1,38 +1,13 @@
-
-// const input = 
-// const inputValue = 
-// const output =
-
-
-function Myfunction() {
-var hi = document.querySelector(".square").value
-var res = hi.toUpperCase()
-res = document.querySelector(".square").innerHTML 
-}
-
-function changeText(text)
-{
-    var display = document.getElementById('text-display');
-    display.innerHTML = "";
-    display.innerHTML = text;
-}
-     
-function defaultText()
-{
-    var display = document.getElementById('text-display');
-    display.innerHTML = "";
-    display.innerHTML = ":Your Hint Here:";
-}
-//  MEMORY2
+// MEMORY4
 console.log('running')
 //first make an empty array
 var list = []
 // make array with correct answers
-var list1 = ["yawn", "dog", "jog", "chop", "pop"];
+var list1 = ["apple", "snail", "ocean", "jock", "smog", "strap", "smack"];
 var hidden = document.getElementById("new");
 hidden.style.display = "none";
 //add button for input then make an event handler for that button
-document.querySelector('#y').onclick = function(){
+document.querySelector('#o').onclick = function(){
     var input = document.getElementById('text').value;
      
     console.log('funcion started')
@@ -58,14 +33,4 @@ document.querySelector('#y').onclick = function(){
         hidden.style.display = "block";
 
     }
-
 }
-
-
-//make a function to add user input to array
-//if else statement 
-
-/*var userA =  document.querySelector(".answerU").value 
-function cli() {
-    if userA = j || 
-}*/

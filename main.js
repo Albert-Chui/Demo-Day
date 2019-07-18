@@ -5,9 +5,9 @@
 
 
 function Myfunction() {
-var hi = document.querySelector(".square").value
-var res = hi.toUpperCase()
-res = document.querySelector(".square").innerHTML 
+var hi = document.querySelector(".noline").value;
+var res = hi.toUpperCase();
+hi.innerHTML = res;
 }
 
 function changeText(text)

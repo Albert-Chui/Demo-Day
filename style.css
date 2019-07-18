@@ -33,12 +33,16 @@ color: white;
 #tittle {
     color: White;
 }
+.Jack {
+    color : red;
+}
 #gamer { 
     color : white;
 }
 #answerU {
     grid-area : 3/21/4/25;
     Height: 40px;
+    text-align: center;
 }
 .square {
     height: 50px;
@@ -131,8 +135,12 @@ color: white;
  }
 
  .x {
+ 
      
     text-align: center;
+ }
+ #Tag {
+     color: white;
  }
 .v {
     text-align: center;
@@ -148,9 +156,14 @@ color: white;
       color: lightslategray;
   }
  #text-display {
-     grid-area: 2/22/3/40;
+     grid-area: 2/22/3/30;
 }
-
+.noline {
+    border:none;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+}
 
 
   ._h_tml { grid-area: 1 / 1 / 2 / 2; }

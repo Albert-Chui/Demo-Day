@@ -2,12 +2,12 @@ console.log('running')
 //first make an empty array
 var list = []
 // make array with correct answers
-var list1 = ["bird", "purple", "swim", "red", "sock", "one", "three"];
+var list1 = ["shoot", "blue", "orange", "green", "sock", "rock", "cat", "fox", "paper", "desert"];
 // var hide = document.getElementById("new");
 // hide.style.display = "none";
 document.getElementById("new").style.display = "none";
 //add button for input then make an event handler for that button
-document.querySelector('#l').onclick = function(){
+document.querySelector('#n').onclick = function(){
     var input = document.getElementById('text').value;
      
     console.log('funcion started')

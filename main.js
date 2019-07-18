@@ -4,11 +4,11 @@
 // const output =
 
 
-function Myfunction() {
+/*document.querySelector(".noline")= function myFunction() {
 var hi = document.querySelector(".noline").value;
 var res = hi.toUpperCase();
 hi.innerHTML = res;
-}
+}*/
 
 function changeText(text)
 {
@@ -36,6 +36,7 @@ document.querySelector('#y').onclick = function(){
     var input = document.getElementById('text').value;
      
     console.log('funcion started')
+    // console.log(list1.length);
     //if else statement 
     
 
@@ -52,12 +53,26 @@ document.querySelector('#y').onclick = function(){
                 document.getElementById('result').innerHTML = 'incorrect';
             }
         
-    }if (list.length == list1.length){
         
-        console.log('everything is cooreet');
-        hidden.style.display = "block";
-
     }
+    let b = 0;
+    for (let j=0; j < list1.length; j++) {
+        if (list[j] == list1[j]){
+            b++; 
+            console.log(b);
+            if (b == list1.length) {
+                hidden.style.display="block"
+                break;
+            }
+        }
+    }
+    
+    //if (list == list1){
+        
+    //     console.log('everything is cooreet');
+    //     hidden.style.display = "block";
+
+    // }
 
 }
 

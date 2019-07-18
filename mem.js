@@ -22,7 +22,7 @@
     //first make an empty array
     var list = []
     // make array with correct answers
-    var list1 = ["ocean", "apple", "snail", "jock", "smog", "strap", "smack"];
+    var list1 = ["ocean", "apple", "snail", "lock", "smog", "trap", "smack"];
     // var hide = document.getElementById("new");
     // hide.style.display = "none";
     document.getElementById("new").style.display = "none";
@@ -47,12 +47,24 @@
                     document.getElementById('result').innerHTML = 'incorrect';
                 }
             
-        }if (list.length == list1.length){
+         }
+         let b = 0;
+         for (let j=0; j < list1.length; j++) {
+             if (list[j] == list1[j]){
+                 b++; 
+                 console.log(b);
+                 if (b == list1.length) {
+                     document.getElementById("new").style.display = "block";
+                     break;
+                 }
+             }
+         }
+         //if (list.length == list1.length){
             
-            console.log('everything is cooreet');
-            document.getElementById("new").style.display = "block";
+        //     console.log('everything is cooreet');
+        //     document.getElementById("new").style.display = "block";
     
-        }
+        // }
     
     }
     

@@ -4,11 +4,11 @@
 // const output =
 
 
-function Myfunction() {
+/*document.querySelector(".noline")= function myFunction() {
 var hi = document.querySelector(".noline").value;
 var res = hi.toUpperCase();
 hi.innerHTML = res;
-}
+}*/
 
 function changeText(text)
 {

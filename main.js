@@ -10,6 +10,7 @@ var res = hi.toUpperCase();
 hi.innerHTML = res;
 }*/
 
+
 function changeText(text)
 {
     var display = document.getElementById('text-display');

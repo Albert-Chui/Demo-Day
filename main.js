@@ -27,8 +27,9 @@ function defaultText()
 var drop= "1_D";
 var res = 0;
 
-while (true==true){
-var str = document.querySelector("#answerU").value;
+
+function change()  {
+    var str = document.querySelector("#answerU").value;
 
 var first_res = str.charAt(0);
 var sec_res = str.charAt(1);
@@ -51,9 +52,6 @@ var eighte_res = str.charAt(17);
 var ninteen_res = str.charAt(20);
 var twenty_res = str.charAt(21);
 var ttw_res = str.charAt(22);
-}
-function change()  {
-    
     if (drop="1_D") {
         document.querySelector("._h_tml").innerHTML = first_res;
         document.querySelector(".h_t_ml").innerHTML = sec_res;

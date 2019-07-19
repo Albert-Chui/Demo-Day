@@ -1,14 +1,13 @@
- //  MEMORY2
- window.onload = function() {
+window.onload = function() {
     console.log('running')
 
     var list = []
     
-    var list1 = ["one", "three", "purple", "red", "swim", "sock", "bird"];
+    var list1 = ["shoot", "blue", "orange", "green", "sock", "rock", "cat", "fox", "paper", "desert"];
   
     document.getElementById("new").style.display = "none";
     
-    document.querySelector('#l').onclick = function(){
+    document.querySelector('#n').onclick = function(){
         var input = document.getElementById('text').value;
          
         console.log('funcion started')

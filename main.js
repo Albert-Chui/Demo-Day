@@ -24,6 +24,19 @@ function defaultText()
     display.innerHTML = "";
     display.innerHTML = ":Your Hint Here:";
 }
+var i = 0
+function replace()  {
+     var str = document.querySelector(".noline").value;
+    var res = str.charAt(i++);
+    document.querySelector("noline").innerHTML = res;
+}
+
+var replaceValues = {
+    'string' : 'text',
+    'foo' : 'bar'
+}
+ 
+
 //  MEMORY2
 console.log('running')
 //first make an empty array
@@ -77,7 +90,29 @@ document.querySelector('#y').onclick = function(){
 
 }
 
+jQuery(".noline").keydown(function(){
+    jQuery(".noline").css("background-color", "pink");
+  });
 
+  /*/ Get the input box
+var textInput = document.getElementById('test-input');
+// then also make it 1 letter per box
+// Init a timeout variable to be used below
+var timeout = null;
+
+// Listen for keystroke events
+textInput.onkeyup = function (e) {
+
+    // Clear the timeout if it has already been set.
+    // This will prevent the previous task from executing
+    // if it has been less than <MILLISECONDS>
+    clearTimeout(timeout);
+
+    // Make a new timeout set to go off in 800ms
+    timeout = setTimeout(function () {
+        console.log('Input Value:', textInput.value);
+    }, 300);
+};*/
 //make a function to add user input to array
 //if else statement 
 

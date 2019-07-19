@@ -1,6 +1,10 @@
 #something{
     color :red;
 }
+.bottom {
+    position: fixed;
+    bottom: 0;
+}
 #trivia{
     color :black
 }

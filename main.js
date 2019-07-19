@@ -25,32 +25,35 @@ function defaultText()
     display.innerHTML = ":Your Hint Here:";
 }
 var drop= "1_D";
+var res = 0;
+
+while (true==true){
 var str = document.querySelector("#answerU").value;
 
-var res = 0;
-var first_res = str.charAt(1);
-var sec_res = str.charAt(2);
-var thir_res = str.charAt(3);
-var fourth_res = str.charAt(4);
-var fifth_res = str.charAt(5);
-var six_res = str.charAt(6);
-var seven_res = str.charAt(7);
-var eight_res = str.charAt(8);
-var nine_res = str.charAt(9);
-var ten_res = str.charAt(10);
-var ele_res = str.charAt(11);
-var twl_res = str.charAt(12);
-var thirt_res = str.charAt(13);
-var fourt_res = str.charAt(14);
-var fift_res = str.charAt(15);
-var sixt_res = str.charAt(16);
-var seve_res = str.charAt(17);
-var eighte_res = str.charAt(18);
-var ninteen_res = str.charAt(19);
-var twenty_res = str.charAt(20);
-var ttw_res = str.charAt(21);
+var first_res = str.charAt(0);
+var sec_res = str.charAt(1);
+var thir_res = str.charAt(2);
+var fourth_res = str.charAt(3);
+var fifth_res = str.charAt(4);
+var six_res = str.charAt(5);
+var seven_res = str.charAt(6);
+var eight_res = str.charAt(7);
+var nine_res = str.charAt(8);
+var ten_res = str.charAt(9);
+var ele_res = str.charAt(10);
+var twl_res = str.charAt(11);
+var thirt_res = str.charAt(12);
+var fourt_res = str.charAt(13);
+var fift_res = str.charAt(14); 
+var sixt_res = str.charAt(15);
+var seve_res = str.charAt(16);
+var eighte_res = str.charAt(17);
+var ninteen_res = str.charAt(20);
+var twenty_res = str.charAt(21);
+var ttw_res = str.charAt(22);
+}
 function change()  {
-    console.log(str.charAt(1))
+    
     if (drop="1_D") {
         document.querySelector("._h_tml").innerHTML = first_res;
         document.querySelector(".h_t_ml").innerHTML = sec_res;

@@ -61,7 +61,7 @@ function change()  {
         dip.innerHTML = thir_res;
         dip.innerHTML = fourth_res;
         dip.innerHTML = fifth_res;
-        dip.innerHTML = res;
+        dip.innerHTML = six_res;
     }
     else if (drop="2_D") {
         dip.innerHTML = first_res;
@@ -74,9 +74,9 @@ function change()  {
         dip.innerHTML = thir_res;
         dip.innerHTML = fourth_res;
         dip.innerHTML = fifth_res;
-        dip.innerHTML = res;
-        dip.innerHTML = res;
-        dip.innerHTML = res;
+        dip.innerHTML = six_res;
+        dip.innerHTML = seven_res;
+        dip.innerHTML = eight_res;
     }
     else if (drop="4_D") {
         dip.innerHTML = first_res;
@@ -90,9 +90,9 @@ function change()  {
         dip.innerHTML = thir_res;
         dip.innerHTML = fourth_res;
         dip.innerHTML = fifth_res;
-        dip.innerHTML = res;
-        dip.innerHTML = res;
-        dip.innerHTML = res;
+        dip.innerHTML = six_res;
+        dip.innerHTML = seven_res;
+        dip.innerHTML = eight_res;
         dip.innerHTML = res;
         dip.innerHTML = res;
     }
@@ -116,9 +116,9 @@ function change()  {
         dip.innerHTML = thir_res;
         dip.innerHTML = fourth_res;
         dip.innerHTML = fifth_res;
-        dip.innerHTML = res;
-        dip.innerHTML = res;
-        dip.innerHTML = res;
+        dip.innerHTML = six_res;
+        dip.innerHTML = seven_res;
+        dip.innerHTML = eight_res;
         dip.innerHTML = res;
         dip.innerHTML = res;
         dip.innerHTML = res;

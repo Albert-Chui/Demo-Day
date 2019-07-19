@@ -24,6 +24,118 @@ function defaultText()
     display.innerHTML = "";
     display.innerHTML = ":Your Hint Here:";
 }
+var drop= 1;
+function change()  {
+     var str = document.querySelector(".answerU").value;
+     var res = 0;
+     first_res = str.charAt(1);
+     sec_res = str.charAt(2);
+     thir_res = str.charAt(3);
+     fourth_res = str.charAt(4);
+     fifth_res = str.charAt(5);
+     six_res = str.charAt(6);
+     seven_res = str.charAt(7);
+     eight_res = str.charAt(8);
+     nine_res = str.charAt(9);
+     ten_res = str.charAt(10);
+     ele_res = str.charAt(11);
+     twl_res = str.charAt(12);
+     thirt_res = str.charAt(13);
+     fourt_res = str.charAt(14);
+     fift_res = str.charAt(15);
+     sixt_res = str.charAt(16);
+     seve_res = str.charAt(17);
+     eighte_res = str.charAt(18);
+     ninteen_res = str.charAt(19);
+     twenty_res = str.charAt(20);
+     ttw_res = str.charAt(21);
+    if (drop="1_D") {
+        dip.innerHTML = first_res;
+        dip.innerHTML = sec_res;
+        dip.innerHTML = thir_res;
+        dip.innerHTML = fourth_res;
+    }
+    else if (drop="2_A") {
+        dip.innerHTML = first_res;
+        dip.innerHTML = sec_res;
+        dip.innerHTML = thir_res;
+        dip.innerHTML = fourth_res;
+        dip.innerHTML = fifth_res;
+        dip.innerHTML = res;
+    }
+    else if (drop="2_D") {
+        dip.innerHTML = first_res;
+        dip.innerHTML = sec_res;
+        dip.innerHTML = thir_res;
+    }
+    else if (drop="3_A") {
+        dip.innerHTML = first_res;
+        dip.innerHTML = sec_res;
+        dip.innerHTML = thir_res;
+        dip.innerHTML = fourth_res;
+        dip.innerHTML = fifth_res;
+        dip.innerHTML = res;
+        dip.innerHTML = res;
+        dip.innerHTML = res;
+    }
+    else if (drop="4_D") {
+        dip.innerHTML = first_res;
+        dip.innerHTML = sec_res;
+        dip.innerHTML = thir_res;
+        dip.innerHTML = fourth_res;
+    }
+    else if (drop="5_D") {
+        dip.innerHTML = first_res;
+        dip.innerHTML = sec_res;
+        dip.innerHTML = thir_res;
+        dip.innerHTML = fourth_res;
+        dip.innerHTML = fifth_res;
+        dip.innerHTML = res;
+        dip.innerHTML = res;
+        dip.innerHTML = res;
+        dip.innerHTML = res;
+        dip.innerHTML = res;
+    }
+    else if (drop="6_A") {
+        dip.innerHTML = first_res;
+        dip.innerHTML = sec_res;
+        dip.innerHTML = thir_res;
+        dip.innerHTML = fourth_res;
+        dip.innerHTML = fifth_res;
+    }
+    else if (drop="7_A") {
+        dip.innerHTML = first_res;
+        dip.innerHTML = sec_res;
+        dip.innerHTML = thir_res;
+        dip.innerHTML = fourth_res;
+        dip.innerHTML = fifth_res;
+    }
+    else if (drop="8_D") {
+        dip.innerHTML = first_res;
+        dip.innerHTML = sec_res;
+        dip.innerHTML = thir_res;
+        dip.innerHTML = fourth_res;
+        dip.innerHTML = fifth_res;
+        dip.innerHTML = res;
+        dip.innerHTML = res;
+        dip.innerHTML = res;
+        dip.innerHTML = res;
+        dip.innerHTML = res;
+        dip.innerHTML = res;
+        
+
+    }
+
+    
+    dip.innerHTML = res;
+}
+
+var replaceValues = {
+    'string' : 'text',
+    'foo' : 'bar'
+}
+ 
+
 //  MEMORY2
 console.log('running')
 //first make an empty array
@@ -77,7 +189,29 @@ document.querySelector('#y').onclick = function(){
 
 }
 
+jQuery(".noline").keydown(function(){
+    jQuery(".noline").css("background-color", "pink");
+  });
 
+  /*/ Get the input box
+var textInput = document.getElementById('test-input');
+// then also make it 1 letter per box
+// Init a timeout variable to be used below
+var timeout = null;
+
+// Listen for keystroke events
+textInput.onkeyup = function (e) {
+
+    // Clear the timeout if it has already been set.
+    // This will prevent the previous task from executing
+    // if it has been less than <MILLISECONDS>
+    clearTimeout(timeout);
+
+    // Make a new timeout set to go off in 800ms
+    timeout = setTimeout(function () {
+        console.log('Input Value:', textInput.value);
+    }, 300);
+};*/
 //make a function to add user input to array
 //if else statement 
 

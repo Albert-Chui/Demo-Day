@@ -49,10 +49,84 @@ function change()  {
      ninteen_res = str.charAt(19);
      twenty_res = str.charAt(20);
      ttw_res = str.charAt(21);
-    if (drop=1) {
-     ;
+    if (drop="1_D") {
+        dip.innerHTML = first_res;
+        dip.innerHTML = sec_res;
+        dip.innerHTML = thir_res;
+        dip.innerHTML = fourth_res;
     }
-     //var res = str.charAt(i++);
+    else if (drop="2_A") {
+        dip.innerHTML = first_res;
+        dip.innerHTML = sec_res;
+        dip.innerHTML = thir_res;
+        dip.innerHTML = fourth_res;
+        dip.innerHTML = fifth_res;
+        dip.innerHTML = res;
+    }
+    else if (drop="2_D") {
+        dip.innerHTML = first_res;
+        dip.innerHTML = sec_res;
+        dip.innerHTML = thir_res;
+    }
+    else if (drop="3_A") {
+        dip.innerHTML = first_res;
+        dip.innerHTML = sec_res;
+        dip.innerHTML = thir_res;
+        dip.innerHTML = fourth_res;
+        dip.innerHTML = fifth_res;
+        dip.innerHTML = res;
+        dip.innerHTML = res;
+        dip.innerHTML = res;
+    }
+    else if (drop="4_D") {
+        dip.innerHTML = first_res;
+        dip.innerHTML = sec_res;
+        dip.innerHTML = thir_res;
+        dip.innerHTML = fourth_res;
+    }
+    else if (drop="5_D") {
+        dip.innerHTML = first_res;
+        dip.innerHTML = sec_res;
+        dip.innerHTML = thir_res;
+        dip.innerHTML = fourth_res;
+        dip.innerHTML = fifth_res;
+        dip.innerHTML = res;
+        dip.innerHTML = res;
+        dip.innerHTML = res;
+        dip.innerHTML = res;
+        dip.innerHTML = res;
+    }
+    else if (drop="6_A") {
+        dip.innerHTML = first_res;
+        dip.innerHTML = sec_res;
+        dip.innerHTML = thir_res;
+        dip.innerHTML = fourth_res;
+        dip.innerHTML = fifth_res;
+    }
+    else if (drop="7_A") {
+        dip.innerHTML = first_res;
+        dip.innerHTML = sec_res;
+        dip.innerHTML = thir_res;
+        dip.innerHTML = fourth_res;
+        dip.innerHTML = fifth_res;
+    }
+    else if (drop="8_D") {
+        dip.innerHTML = first_res;
+        dip.innerHTML = sec_res;
+        dip.innerHTML = thir_res;
+        dip.innerHTML = fourth_res;
+        dip.innerHTML = fifth_res;
+        dip.innerHTML = res;
+        dip.innerHTML = res;
+        dip.innerHTML = res;
+        dip.innerHTML = res;
+        dip.innerHTML = res;
+        dip.innerHTML = res;
+        
+
+    }
+
+    
     dip.innerHTML = res;
 }
 

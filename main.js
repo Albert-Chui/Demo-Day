@@ -24,110 +24,106 @@ function defaultText()
     display.innerHTML = "";
     display.innerHTML = ":Your Hint Here:";
 }
-var drop= 1;
+var drop= "1_D";
+var str = document.querySelector("#answerU").value;
+
+var res = 0;
+var first_res = str.charAt(1);
+var sec_res = str.charAt(2);
+var thir_res = str.charAt(3);
+var fourth_res = str.charAt(4);
+var fifth_res = str.charAt(5);
+var six_res = str.charAt(6);
+var seven_res = str.charAt(7);
+var eight_res = str.charAt(8);
+var nine_res = str.charAt(9);
+var ten_res = str.charAt(10);
+var ele_res = str.charAt(11);
+var twl_res = str.charAt(12);
+var thirt_res = str.charAt(13);
+var fourt_res = str.charAt(14);
+var fift_res = str.charAt(15);
+var sixt_res = str.charAt(16);
+var seve_res = str.charAt(17);
+var eighte_res = str.charAt(18);
+var ninteen_res = str.charAt(19);
+var twenty_res = str.charAt(20);
+var ttw_res = str.charAt(21);
 function change()  {
-     var str = document.querySelector(".answerU").value;
-     var res = 0;
-     first_res = str.charAt(1);
-     sec_res = str.charAt(2);
-     thir_res = str.charAt(3);
-     fourth_res = str.charAt(4);
-     fifth_res = str.charAt(5);
-     six_res = str.charAt(6);
-     seven_res = str.charAt(7);
-     eight_res = str.charAt(8);
-     nine_res = str.charAt(9);
-     ten_res = str.charAt(10);
-     ele_res = str.charAt(11);
-     twl_res = str.charAt(12);
-     thirt_res = str.charAt(13);
-     fourt_res = str.charAt(14);
-     fift_res = str.charAt(15);
-     sixt_res = str.charAt(16);
-     seve_res = str.charAt(17);
-     eighte_res = str.charAt(18);
-     ninteen_res = str.charAt(19);
-     twenty_res = str.charAt(20);
-     ttw_res = str.charAt(21);
+    console.log(str.charAt(1))
     if (drop="1_D") {
-        dip.innerHTML = first_res;
-        dip.innerHTML = sec_res;
-        dip.innerHTML = thir_res;
-        dip.innerHTML = fourth_res;
+        document.querySelector("._h_tml").innerHTML = first_res;
+        document.querySelector(".h_t_ml").innerHTML = sec_res;
+        document.querySelector(".ht_m_l").innerHTML = thir_res;
+        document.querySelector(".htm_l_").innerHTML = fourth_res;
     }
     else if (drop="2_A") {
-        dip.innerHTML = first_res;
-        dip.innerHTML = sec_res;
-        dip.innerHTML = thir_res;
-        dip.innerHTML = fourth_res;
-        dip.innerHTML = fifth_res;
-        dip.innerHTML = res;
+        document.querySelector("._c_ss").innerHTML = first_res;
+        document.querySelector(".c_o_ding ").innerHTML = sec_res;
+        document.querySelector(".co_d_ing").innerHTML = thir_res;
+        document.querySelector(".cod_i_ng").innerHTML = fourth_res;
+        document.querySelector(".codi_n_g").innerHTML = fifth_res;
+        document.querySelector(".codin_g_").innerHTML = six_res;
     }
     else if (drop="2_D") {
-        dip.innerHTML = first_res;
-        dip.innerHTML = sec_res;
-        dip.innerHTML = thir_res;
+        document.querySelector("._c_ss").innerHTML = first_res;
+        document.querySelector(".main-js_s_").innerHTML = sec_res;
+        document.querySelector(".cs_s_").innerHTML = thir_res;
     }
     else if (drop="3_A") {
-        dip.innerHTML = first_res;
-        dip.innerHTML = sec_res;
-        dip.innerHTML = thir_res;
-        dip.innerHTML = fourth_res;
-        dip.innerHTML = fifth_res;
-        dip.innerHTML = res;
-        dip.innerHTML = res;
-        dip.innerHTML = res;
+        document.querySelector(".ht_m_l").innerHTML = first_res;
+        document.querySelector(".m_a_in-jss ").innerHTML = sec_res;
+        document.querySelector(".ma_i_n-jss").innerHTML = thir_res;
+        document.querySelector(".mai_n_-jss").innerHTML = fourth_res;
+        document.querySelector(".main_-_jss").innerHTML = fifth_res;
+        document.querySelector(".main-_j_ss").innerHTML = six_res;
+        document.querySelector(".main-j_s_s").innerHTML = seven_res;
+        document.querySelector(".main-js_s_").innerHTML = eight_res;
     }
     else if (drop="4_D") {
-        dip.innerHTML = first_res;
-        dip.innerHTML = sec_res;
-        dip.innerHTML = thir_res;
-        dip.innerHTML = fourth_res;
+        document.querySelector(".mai_n_-jss").innerHTML = first_res;
+        document.querySelector(".n_a_v").innerHTML = sec_res;
+        document.querySelector(".na_v_").innerHTML = thir_res;
     }
     else if (drop="5_D") {
-        dip.innerHTML = first_res;
-        dip.innerHTML = sec_res;
-        dip.innerHTML = thir_res;
-        dip.innerHTML = fourth_res;
-        dip.innerHTML = fifth_res;
-        dip.innerHTML = res;
-        dip.innerHTML = res;
-        dip.innerHTML = res;
-        dip.innerHTML = res;
-        dip.innerHTML = res;
-    }
-    else if (drop="6_A") {
-        dip.innerHTML = first_res;
-        dip.innerHTML = sec_res;
-        dip.innerHTML = thir_res;
-        dip.innerHTML = fourth_res;
-        dip.innerHTML = fifth_res;
+        document.querySelector(".main-_j_ss").innerHTML = first_res;
+        document.querySelector(".j_a_vascript").innerHTML = sec_res;
+        document.querySelector(".ja_v_ascript").innerHTML = thir_res;
+        document.querySelector(".jav_a_script").innerHTML = fourth_res;
+        document.querySelector(".java_s_cript").innerHTML = fifth_res;
+        document.querySelector(".javas_c_ript").innerHTML = six_res;
+        document.querySelector(".javasc_r_ipt").innerHTML = seven_res;
+        document.querySelector(".javascr_i_pt").innerHTML = eight_res;
+        document.querySelector(".javascri_p_t").innerHTML = nine_res;
+        document.querySelector(".javascrip_t_").innerHTML = ten_res;
     }
     else if (drop="7_A") {
-        dip.innerHTML = first_res;
-        dip.innerHTML = sec_res;
-        dip.innerHTML = thir_res;
-        dip.innerHTML = fourth_res;
-        dip.innerHTML = fifth_res;
+        document.querySelector(".javascr_i_pt").innerHTML = first_res;
+        document.querySelector(".i_n_dex").innerHTML = sec_res;
+        document.querySelector(".in_d_ex").innerHTML = thir_res;
+        document.querySelector(".ind_e_x").innerHTML = fourth_res;
+        document.querySelector(".inde_x_").innerHTML = fifth_res;
+    }
+    else if (drop="6_A") {
+        document.querySelector(".cs_s_").innerHTML = first_res;
+        document.querySelector(".s_t_yle").innerHTML = sec_res;
+        document.querySelector(".st_y_le").innerHTML = thir_res;
+        document.querySelector(".sty_l_e").innerHTML = fourth_res;
+        document.querySelector(".styl_e_").innerHTML = fifth_res;
     }
     else if (drop="8_D") {
-        dip.innerHTML = first_res;
-        dip.innerHTML = sec_res;
-        dip.innerHTML = thir_res;
-        dip.innerHTML = fourth_res;
-        dip.innerHTML = fifth_res;
-        dip.innerHTML = res;
-        dip.innerHTML = res;
-        dip.innerHTML = res;
-        dip.innerHTML = res;
-        dip.innerHTML = res;
-        dip.innerHTML = res;
-        
-
-    }
-
-    
-    dip.innerHTML = res;
+        document.querySelector(".javascri_p_t").innerHTML = first_res;       
+        document.querySelector(".p_r_ogramming").innerHTML = sec_res;
+        document.querySelector(".pr_o_gramming").innerHTML = thir_res;
+        document.querySelector(".pro_g_ramming").innerHTML = fourth_res;
+        document.querySelector(".prog_r_amming").innerHTML = fifth_res;
+        document.querySelector(".progr_a_mming").innerHTML = six_res;
+        document.querySelector(".progra_m_ming").innerHTML = seven_res;
+        document.querySelector(".program_m_ing").innerHTML = eight_res;
+        document.querySelector(".programm_i_ng").innerHTML = nine_res;
+        document.querySelector(".programmi_n_g").innerHTML = ten_res;
+        document.querySelector(".programmin_g_").innerHTML = ele_res;
+        }
 }
 
 var replaceValues = {

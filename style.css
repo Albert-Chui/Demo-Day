@@ -148,7 +148,9 @@ color: white;
  h1 {
      color: blue;
  }
-
+#Voohoo {
+    font-size: 250%;
+}
  .x {
  
      
@@ -186,6 +188,7 @@ color: white;
     width: 44px;
     height: 44px;
     text-align: center;
+    
 }
 
 

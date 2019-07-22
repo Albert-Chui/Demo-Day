@@ -26,7 +26,7 @@ function defaultText()
     display.innerHTML = ":Your Hint Here:";
 }
 
-var container = document.querySelector(".grid")[0];
+var container = document.getElementsByClassName('grid')[0];
 
 container.onkeyup = function(e) {
     var target = e.srcElement || e.target;
@@ -161,7 +161,7 @@ var ttw_res = str.charAt(22);
         }
 }
 
-var replaceValues = {
+/*var replaceValues = {
     'string' : 'text',
     'foo' : 'bar'
 }
@@ -171,7 +171,7 @@ var replaceValues = {
 
 jQuery(".noline").keydown(function(){
     jQuery(".noline").css("background-color", "pink");
-  });
+  });*/
 
   /*/ Get the input box
 var textInput = document.getElementById('test-input');

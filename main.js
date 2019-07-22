@@ -11,6 +11,7 @@ hi.innerHTML = res;
 }*/
 
 
+
 function changeText(text)
 {
     var display = document.getElementById('text-display');
@@ -24,6 +25,38 @@ function defaultText()
     display.innerHTML = "";
     display.innerHTML = ":Your Hint Here:";
 }
+
+var container = document.querySelector(".grid")[0];
+
+container.onkeyup = function(e) {
+    var target = e.srcElement || e.target;
+    var maxLength = parseInt(target.attributes["maxlength"].value, 10);
+    var myLength = target.value.length;
+    if (myLength >= maxLength) {
+        var next = target;
+        while (next = next.nextElementSibling) {
+            if (next == null)
+                break;
+            if (next.tagName.toLowerCase() === "input") {
+                next.focus();
+                break;
+            }
+        }
+    }
+    // Move to previous field if empty (user pressed backspace)
+    else if (myLength === 0) {
+        var previous = target;
+        while (previous = previous.previousElementSibling) {
+            if (previous == null)
+                break;
+            if (previous.tagName.toLowerCase() === "input") {
+                previous.focus();
+                break;
+            }
+        }
+    }
+}
+
 var drop= "1_D";
 //need a dropdown that changes drop variable to :2_A;2_D,etc.
 var res = 0;

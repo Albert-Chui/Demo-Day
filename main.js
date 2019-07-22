@@ -61,7 +61,7 @@ var drop= "1_D";
 //need a dropdown that changes drop variable to :2_A;2_D,etc.
 var res = 0;
 
-window.onload = function () {
+
 function change()  {
     var str = document.querySelector("#answerU").value;
 
@@ -172,7 +172,7 @@ var replaceValues = {
 jQuery(".noline").keydown(function(){
     jQuery(".noline").css("background-color", "pink");
   });
-}
+
   /*/ Get the input box
 var textInput = document.getElementById('test-input');
 // then also make it 1 letter per box

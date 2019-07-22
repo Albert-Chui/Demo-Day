@@ -25,6 +25,7 @@ function defaultText()
     display.innerHTML = ":Your Hint Here:";
 }
 var drop= "1_D";
+//need a dropdown that changes drop variable to :2_A;2_D,etc.
 var res = 0;
 
 

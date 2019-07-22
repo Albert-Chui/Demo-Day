@@ -67,6 +67,11 @@ color: white;
     Height: 40px;
     text-align: center;
 }
+#bss {
+    grid-area : 3/31/4/32;
+    background-color: bisque;
+
+}
 .square {
     height: 50px;
     width: 50px;
@@ -147,7 +152,7 @@ color: white;
     padding-left:3px;
     grid-area: 11 / 6 / 12 / 7;
 }
- .grid {
+ .grid-container{
    display: grid;
    grid-auto-rows: 50px;
    grid-auto-columns: 50px;
@@ -196,6 +201,7 @@ color: white;
     width: 44px;
     height: 44px;
     text-align: center;
+    background: transparent;
     
 }
 

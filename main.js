@@ -26,7 +26,7 @@ function defaultText()
     display.innerHTML = ":Your Hint Here:";
 }
 
-var container = document.getElementsByClassName('grid')[0];
+var container = document.getElementsByClassName('container')[0];
 
 container.onkeyup = function(e) {
     var target = e.srcElement || e.target;
@@ -37,7 +37,7 @@ container.onkeyup = function(e) {
         while (next = next.nextElementSibling) {
             if (next == null)
                 break;
-            if (next.tagName.toLowerCase() === "input") {
+            if (next.tagName.toLowerCase() === "div") {
                 next.focus();
                 break;
             }

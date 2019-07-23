@@ -26,7 +26,7 @@ function defaultText()
     display.innerHTML = ":Your Hint Here:";
 }
 
-var container = document.getElementsByClassName('grid')[0];
+var container = document.getElementsByClassName("grid-container")[0];
 
 container.onkeyup = function(e) {
     var target = e.srcElement || e.target;
@@ -63,7 +63,8 @@ var res = 0;
 
 
 function change()  {
-    var str = document.querySelector("#answerU").value;
+    var stv = document.querySelector("#answerU").value;
+    var str = stv.toUpperCase();
 
 var first_res = str.charAt(0);
 var sec_res = str.charAt(1);
@@ -160,7 +161,74 @@ var ttw_res = str.charAt(22);
         document.querySelector(".programmin_g_").innerHTML = ele_res;
         }
 }
+//button
+document.querySelector("#bss").onclick = function(){
 
+        document.querySelector("._h_tml").innerHTML = "H";
+        document.querySelector(".h_t_ml").innerHTML = "T";
+        document.querySelector(".ht_m_l").innerHTML = "M";
+        document.querySelector(".htm_l_").innerHTML = "L";
+    
+
+        document.querySelector("._c_ss").innerHTML = "C";
+        document.querySelector(".c_o_ding ").innerHTML = "O";
+        document.querySelector(".co_d_ing").innerHTML = "D";
+        document.querySelector(".cod_i_ng").innerHTML = "I";
+        document.querySelector(".codi_n_g").innerHTML = "N";
+        document.querySelector(".codin_g_").innerHTML = "G";
+
+        document.querySelector("._c_ss").innerHTML = "C";
+        document.querySelector(".main-js_s_").innerHTML = "S";
+        document.querySelector(".cs_s_").innerHTML = "S";
+
+        document.querySelector(".ht_m_l").innerHTML = "M"
+        document.querySelector(".m_a_in-jss ").innerHTML = "A";
+        document.querySelector(".ma_i_n-jss").innerHTML = "I";
+        document.querySelector(".mai_n_-jss").innerHTML = "N";
+        document.querySelector(".main_-_jss").innerHTML = ".";
+        document.querySelector(".main-_j_ss").innerHTML = "J";
+        document.querySelector(".main-j_s_s").innerHTML = "S";
+        document.querySelector(".main-js_s_").innerHTML = "S";
+
+        document.querySelector(".mai_n_-jss").innerHTML = "N";
+        document.querySelector(".n_a_v").innerHTML = "A";
+        document.querySelector(".na_v_").innerHTML = "V";
+
+        document.querySelector(".main-_j_ss").innerHTML = "J";
+        document.querySelector(".j_a_vascript").innerHTML = "A";
+        document.querySelector(".ja_v_ascript").innerHTML = "V";
+        document.querySelector(".jav_a_script").innerHTML = "A";
+        document.querySelector(".java_s_cript").innerHTML = "S";
+        document.querySelector(".javas_c_ript").innerHTML = "C";
+        document.querySelector(".javasc_r_ipt").innerHTML = "R";
+        document.querySelector(".javascr_i_pt").innerHTML = "I";
+        document.querySelector(".javascri_p_t").innerHTML = "P";
+        document.querySelector(".javascrip_t_").innerHTML = "T";
+
+        document.querySelector(".javascr_i_pt").innerHTML = "I";
+        document.querySelector(".i_n_dex").innerHTML = "N";
+        document.querySelector(".in_d_ex").innerHTML = "D";
+        document.querySelector(".ind_e_x").innerHTML = "E";
+        document.querySelector(".inde_x_").innerHTML = "X";
+  
+        document.querySelector(".cs_s_").innerHTML = "S";
+        document.querySelector(".s_t_yle").innerHTML = "T";
+        document.querySelector(".st_y_le").innerHTML = "Y";
+        document.querySelector(".sty_l_e").innerHTML = "L";
+        document.querySelector(".styl_e_").innerHTML = "E";
+
+        document.querySelector(".javascri_p_t").innerHTML = "P";       
+        document.querySelector(".p_r_ogramming").innerHTML = "R";
+        document.querySelector(".pr_o_gramming").innerHTML = "O";
+        document.querySelector(".pro_g_ramming").innerHTML = "G";
+        document.querySelector(".prog_r_amming").innerHTML = "R";
+        document.querySelector(".progr_a_mming").innerHTML = "A";
+        document.querySelector(".progra_m_ming").innerHTML = "M";
+        document.querySelector(".program_m_ing").innerHTML = "M";
+        document.querySelector(".programm_i_ng").innerHTML = "I";
+        document.querySelector(".programmi_n_g").innerHTML = "N";
+        document.querySelector(".programmin_g_").innerHTML = "G";
+}
 /*var replaceValues = {
     'string' : 'text',
     'foo' : 'bar'

@@ -25,10 +25,13 @@ function defaultText()
     display.innerHTML = "";
     display.innerHTML = ":Your Hint Here:";
 }
+
 var tdrop= "down"
 var drop= 1;
+
 //need a dropdown that changes drop variable to :2_A;2_D,etc.
 var res = 0;
+
 function functionone(one) {
  drop = 1;
  document.getElementById('answerU').value = '';
@@ -169,9 +172,13 @@ var ttw_res = str.charAt(22);
         document.querySelector(".programmin_g_").innerHTML = ele_res;
         }
 }
+var p = 0;
 //button
 document.querySelector("#bss").onclick = function(){
 
+
+       if (p<1){ 
+           p= 2;
         document.querySelector("._h_tml").innerHTML = "H";
         document.querySelector(".h_t_ml").innerHTML = "T";
         document.querySelector(".ht_m_l").innerHTML = "M";
@@ -236,7 +243,84 @@ document.querySelector("#bss").onclick = function(){
         document.querySelector(".programm_i_ng").innerHTML = "I";
         document.querySelector(".programmi_n_g").innerHTML = "N";
         document.querySelector(".programmin_g_").innerHTML = "G";
-}
+    }
+    else if (p = 2) {
+        var bob = document.querySelector("#dog");
+        bob.innerHTML= "";
+        bob.innerHTML= "It's Gone";
+        p = 6;
+
+        document.querySelector("._h_tml").innerHTML = " ";
+        document.querySelector(".h_t_ml").innerHTML = " ";
+        document.querySelector(".ht_m_l").innerHTML = " ";
+        document.querySelector(".htm_l_").innerHTML = " ";
+    
+
+        document.querySelector("._c_ss").innerHTML = " ";
+        document.querySelector(".c_o_ding ").innerHTML = " ";
+        document.querySelector(".co_d_ing").innerHTML = " ";
+        document.querySelector(".cod_i_ng").innerHTML = " ";
+        document.querySelector(".codi_n_g").innerHTML = " ";
+        document.querySelector(".codin_g_").innerHTML = " ";
+
+        document.querySelector("._c_ss").innerHTML = " ";
+        document.querySelector(".main-js_s_").innerHTML = " ";
+        document.querySelector(".cs_s_").innerHTML = " ";
+
+        document.querySelector(".ht_m_l").innerHTML = " ";
+        document.querySelector(".m_a_in-jss ").innerHTML = " ";
+        document.querySelector(".ma_i_n-jss").innerHTML = " ";
+        document.querySelector(".mai_n_-jss").innerHTML = " ";
+        document.querySelector(".main_-_jss").innerHTML = " ";
+        document.querySelector(".main-_j_ss").innerHTML = " ";
+        document.querySelector(".main-j_s_s").innerHTML = " ";
+        document.querySelector(".main-js_s_").innerHTML = " ";
+
+        document.querySelector(".mai_n_-jss").innerHTML = " ";
+        document.querySelector(".n_a_v").innerHTML = " ";
+        document.querySelector(".na_v_").innerHTML = " ";
+
+        document.querySelector(".main-_j_ss").innerHTML = " ";
+        document.querySelector(".j_a_vascript").innerHTML = " ";
+        document.querySelector(".ja_v_ascript").innerHTML = " ";
+        document.querySelector(".jav_a_script").innerHTML = " ";
+        document.querySelector(".java_s_cript").innerHTML = " ";
+        document.querySelector(".javas_c_ript").innerHTML = " ";
+        document.querySelector(".javasc_r_ipt").innerHTML = " ";
+        document.querySelector(".javascr_i_pt").innerHTML = " ";
+        document.querySelector(".javascri_p_t").innerHTML = " ";
+        document.querySelector(".javascrip_t_").innerHTML = " ";
+
+        document.querySelector(".javascr_i_pt").innerHTML = " ";
+        document.querySelector(".i_n_dex").innerHTML = " ";
+        document.querySelector(".in_d_ex").innerHTML = " ";
+        document.querySelector(".ind_e_x").innerHTML = " ";
+        document.querySelector(".inde_x_").innerHTML = " ";
+  
+        document.querySelector(".cs_s_").innerHTML = " ";
+        document.querySelector(".s_t_yle").innerHTML = " ";
+        document.querySelector(".st_y_le").innerHTML = " ";
+        document.querySelector(".sty_l_e").innerHTML = " ";
+        document.querySelector(".styl_e_").innerHTML = " ";
+
+        document.querySelector(".javascri_p_t").innerHTML = " ";       
+        document.querySelector(".p_r_ogramming").innerHTML = " ";
+        document.querySelector(".pr_o_gramming").innerHTML = " ";
+        document.querySelector(".pro_g_ramming").innerHTML = " ";
+        document.querySelector(".prog_r_amming").innerHTML = " ";
+        document.querySelector(".progr_a_mming").innerHTML = " ";
+        document.querySelector(".progra_m_ming").innerHTML = " ";
+        document.querySelector(".program_m_ing").innerHTML = " ";
+        document.querySelector(".programm_i_ng").innerHTML = " ";
+        document.querySelector(".programmi_n_g").innerHTML = " ";
+        document.querySelector(".programmin_g_").innerHTML = " ";}
+    else if (p = 6) {
+        bob.innerHTML= "";
+        bob.innerHTML= "Haha";
+    }
+
+    }
+
 /* This doesnt work because i used inputs inside divs
 var container = document.getElementsByClassName("grid-container")[0];
 

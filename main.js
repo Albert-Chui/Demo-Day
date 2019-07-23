@@ -31,33 +31,43 @@ var drop= 1;
 var res = 0;
 function functionone(one) {
  drop = 1;
+ document.getElementById('answerU').value = '';
 }
 function functiontwo(two) {
     drop = 2;
+    document.getElementById('answerU').value = '';
    }
    function functionthree(three) {
     drop = 3;
+    document.getElementById('answerU').value = '';
    }
    function functionfour(four) {
     drop = 4;
+    document.getElementById('answerU').value = '';
    }
    function functionfive(five) {
     drop = 5;
+    document.getElementById('answerU').value = '';
    }
    function functionsix(six) {
     drop = 6;
+    document.getElementById('answerU').value = '';
    }
 function functionseven(seven) {
     drop = 7;
+    document.getElementById('answerU').value = '';
    }
    function functioneight(eight) {
     drop = 8;
+    document.getElementById('answerU').value = '';
    }
   function functiondown(down)  {
-    tdrop = "Down"
+    tdrop = "Down";
+    document.getElementById('answerU').value = '';
   }              
 function functionacross(across){
-   tdrop = "Across"
+   tdrop = "Across";
+   document.getElementById('answerU').value = '';
 }
 
 function change()  {

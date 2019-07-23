@@ -25,42 +25,40 @@ function defaultText()
     display.innerHTML = "";
     display.innerHTML = ":Your Hint Here:";
 }
-/* This doesnt work because i used inputs inside divs
-var container = document.getElementsByClassName("grid-container")[0];
-
-container.onkeyup = function(e) {
-    var target = e.srcElement || e.target;
-    var maxLength = parseInt(target.attributes["maxlength"].value, 10);
-    var myLength = target.value.length;
-    if (myLength >= maxLength) {
-        var next = target;
-        while (next = next.nextElementSibling) {
-            if (next == null)
-                break;
-            if (next.tagName.toLowerCase() === "input") {
-                next.focus();
-                break;
-            }
-        }
-    }
-    // Move to previous field if empty (user pressed backspace)
-    else if (myLength === 0) {
-        var previous = target;
-        while (previous = previous.previousElementSibling) {
-            if (previous == null)
-                break;
-            if (previous.tagName.toLowerCase() === "input") {
-                previous.focus();
-                break;
-            }
-        }
-    }
-}
-*/
+var tdrop= "down"
 var drop= "1_D";
 //need a dropdown that changes drop variable to :2_A;2_D,etc.
 var res = 0;
-
+function functionone(one) {
+ drop = 1;
+}
+function functiontwo(two) {
+    drop = 2;
+   }
+   function functionthree(three) {
+    drop = 3;
+   }
+   function functionfour(four) {
+    drop = 4;
+   }
+   function functionfive(five) {
+    drop = 5;
+   }
+   function functionsix(six) {
+    drop = 6;
+   }
+function functionseven(seven) {
+    drop = 7;
+   }
+   function functioneight(eight) {
+    drop = 8;
+   }
+  function functiondown(down)  {
+    tdrop = "down"
+  }              
+function functionacross(across){
+   tdrop = "across"
+}
 
 function change()  {
     var stv = document.querySelector("#answerU").value;
@@ -229,17 +227,39 @@ document.querySelector("#bss").onclick = function(){
         document.querySelector(".programmi_n_g").innerHTML = "N";
         document.querySelector(".programmin_g_").innerHTML = "G";
 }
-/*var replaceValues = {
-    'string' : 'text',
-    'foo' : 'bar'
+/* This doesnt work because i used inputs inside divs
+var container = document.getElementsByClassName("grid-container")[0];
+
+container.onkeyup = function(e) {
+    var target = e.srcElement || e.target;
+    var maxLength = parseInt(target.attributes["maxlength"].value, 10);
+    var myLength = target.value.length;
+    if (myLength >= maxLength) {
+        var next = target;
+        while (next = next.nextElementSibling) {
+            if (next == null)
+                break;
+            if (next.tagName.toLowerCase() === "input") {
+                next.focus();
+                break;
+            }
+        }
+    }
+    // Move to previous field if empty (user pressed backspace)
+    else if (myLength === 0) {
+        var previous = target;
+        while (previous = previous.previousElementSibling) {
+            if (previous == null)
+                break;
+            if (previous.tagName.toLowerCase() === "input") {
+                previous.focus();
+                break;
+            }
+        }
+    }
 }
- 
+*/
 
-
-
-jQuery(".noline").keydown(function(){
-    jQuery(".noline").css("background-color", "pink");
-  });*/
 
   /*/ Get the input box
 var textInput = document.getElementById('test-input');

@@ -26,7 +26,7 @@ function defaultText()
     display.innerHTML = ":Your Hint Here:";
 }
 var tdrop= "down"
-var drop= "1_D";
+var drop= 1;
 //need a dropdown that changes drop variable to :2_A;2_D,etc.
 var res = 0;
 function functionone(one) {
@@ -54,10 +54,10 @@ function functionseven(seven) {
     drop = 8;
    }
   function functiondown(down)  {
-    tdrop = "down"
+    tdrop = "Down"
   }              
 function functionacross(across){
-   tdrop = "across"
+   tdrop = "Across"
 }
 
 function change()  {
@@ -85,13 +85,13 @@ var eighte_res = str.charAt(17);
 var ninteen_res = str.charAt(20);
 var twenty_res = str.charAt(21);
 var ttw_res = str.charAt(22);
-    if (drop="1_D") {
+    if (tdrop="Down" && drop === 1) { 
         document.querySelector("._h_tml").innerHTML = first_res;
         document.querySelector(".h_t_ml").innerHTML = sec_res;
         document.querySelector(".ht_m_l").innerHTML = thir_res;
         document.querySelector(".htm_l_").innerHTML = fourth_res;
     }
-    else if (drop="2_A") {
+    else if (tdrop="Across" && drop == 2) {
         document.querySelector("._c_ss").innerHTML = first_res;
         document.querySelector(".c_o_ding ").innerHTML = sec_res;
         document.querySelector(".co_d_ing").innerHTML = thir_res;
@@ -99,12 +99,12 @@ var ttw_res = str.charAt(22);
         document.querySelector(".codi_n_g").innerHTML = fifth_res;
         document.querySelector(".codin_g_").innerHTML = six_res;
     }
-    else if (drop="2_D") {
+    else if (tdrop="Down" && drop == 2) {
         document.querySelector("._c_ss").innerHTML = first_res;
         document.querySelector(".main-js_s_").innerHTML = sec_res;
         document.querySelector(".cs_s_").innerHTML = thir_res;
     }
-    else if (drop="3_A") {
+    else if (tdrop="Across" && drop == 3) {
         document.querySelector(".ht_m_l").innerHTML = first_res;
         document.querySelector(".m_a_in-jss ").innerHTML = sec_res;
         document.querySelector(".ma_i_n-jss").innerHTML = thir_res;
@@ -114,12 +114,12 @@ var ttw_res = str.charAt(22);
         document.querySelector(".main-j_s_s").innerHTML = seven_res;
         document.querySelector(".main-js_s_").innerHTML = eight_res;
     }
-    else if (drop="4_D") {
+    else if (tdrop="Down" && drop == 4) {
         document.querySelector(".mai_n_-jss").innerHTML = first_res;
         document.querySelector(".n_a_v").innerHTML = sec_res;
         document.querySelector(".na_v_").innerHTML = thir_res;
     }
-    else if (drop="5_D") {
+    else if (tdrop="Down" && drop == 5) {
         document.querySelector(".main-_j_ss").innerHTML = first_res;
         document.querySelector(".j_a_vascript").innerHTML = sec_res;
         document.querySelector(".ja_v_ascript").innerHTML = thir_res;
@@ -131,21 +131,21 @@ var ttw_res = str.charAt(22);
         document.querySelector(".javascri_p_t").innerHTML = nine_res;
         document.querySelector(".javascrip_t_").innerHTML = ten_res;
     }
-    else if (drop="7_A") {
+    else if (tdrop="Across" && drop == 7) {
         document.querySelector(".javascr_i_pt").innerHTML = first_res;
         document.querySelector(".i_n_dex").innerHTML = sec_res;
         document.querySelector(".in_d_ex").innerHTML = thir_res;
         document.querySelector(".ind_e_x").innerHTML = fourth_res;
         document.querySelector(".inde_x_").innerHTML = fifth_res;
     }
-    else if (drop="6_A") {
+    else if (tdrop="Across" && drop == 6) {
         document.querySelector(".cs_s_").innerHTML = first_res;
         document.querySelector(".s_t_yle").innerHTML = sec_res;
         document.querySelector(".st_y_le").innerHTML = thir_res;
         document.querySelector(".sty_l_e").innerHTML = fourth_res;
         document.querySelector(".styl_e_").innerHTML = fifth_res;
     }
-    else if (drop="8_D") {
+    else if (tdrop="Down" && drop == 8) {
         document.querySelector(".javascri_p_t").innerHTML = first_res;       
         document.querySelector(".p_r_ogramming").innerHTML = sec_res;
         document.querySelector(".pr_o_gramming").innerHTML = thir_res;

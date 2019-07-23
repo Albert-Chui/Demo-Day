@@ -25,7 +25,7 @@ function defaultText()
     display.innerHTML = "";
     display.innerHTML = ":Your Hint Here:";
 }
-
+/* This doesnt work because i used inputs inside divs
 var container = document.getElementsByClassName("grid-container")[0];
 
 container.onkeyup = function(e) {
@@ -56,7 +56,7 @@ container.onkeyup = function(e) {
         }
     }
 }
-
+*/
 var drop= "1_D";
 //need a dropdown that changes drop variable to :2_A;2_D,etc.
 var res = 0;

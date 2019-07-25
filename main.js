@@ -35,42 +35,72 @@ var res = 0;
 function functionone(one) {
  drop = 1;
  document.getElementById('answerU').value = '';
+ var dope = document.querySelector("#hi");
+ dope.innerHTML = "";
+ dope.innerHTML = drop +" " + tdrop;
 }
 function functiontwo(two) {
     drop = 2;
     document.getElementById('answerU').value = '';
+    var dope = document.querySelector("#hi");
+    dope.innerHTML = "";
+    dope.innerHTML = drop +" " + tdrop;
    }
    function functionthree(three) {
     drop = 3;
     document.getElementById('answerU').value = '';
+    var dope = document.querySelector("#hi");
+    dope.innerHTML = "";
+    dope.innerHTML = drop +" " + tdrop;
    }
    function functionfour(four) {
     drop = 4;
     document.getElementById('answerU').value = '';
+    var dope = document.querySelector("#hi");
+    dope.innerHTML = "";
+    dope.innerHTML = drop +" " + tdrop;
    }
    function functionfive(five) {
     drop = 5;
     document.getElementById('answerU').value = '';
+    var dope = document.querySelector("#hi");
+    dope.innerHTML = "";
+    dope.innerHTML = drop +" " + tdrop;
    }
    function functionsix(six) {
     drop = 6;
     document.getElementById('answerU').value = '';
+    var dope = document.querySelector("#hi");
+    dope.innerHTML = "";
+    dope.innerHTML = drop +" " + tdrop;
    }
 function functionseven(seven) {
     drop = 7;
     document.getElementById('answerU').value = '';
+    var dope = document.querySelector("#hi");
+    dope.innerHTML = "";
+    dope.innerHTML = drop +" " + tdrop;
    }
    function functioneight(eight) {
     drop = 8;
     document.getElementById('answerU').value = '';
+    var dope = document.querySelector("#hi");
+    dope.innerHTML = "";
+    dope.innerHTML = drop +" " + tdrop;
    }
   function functiondown(down)  {
     tdrop = "Down";
-    document.getElementById('answerU').value = '';
+    document.getElementById('answerU').value = ''; 
+    var dope = document.querySelector("#hi");
+    dope.innerHTML = "";
+    dope.innerHTML = drop +" " + tdrop;
   }              
 function functionacross(across){
    tdrop = "Across";
    document.getElementById('answerU').value = '';
+   var dope = document.querySelector("#hi");
+   dope.innerHTML = "";
+   dope.innerHTML = drop +" " + tdrop;
 }
 
 function change()  {

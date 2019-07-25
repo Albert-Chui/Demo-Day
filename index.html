@@ -71,29 +71,11 @@
     <link rel="stylesheet" href="style.css">
     <title>[Website name]</title>
   </head>
-  <body> 
-    <!-- THE BACKGROUND -->
-    <style>
-      body {
-background-image: url(https://designshack.net/wp-content/uploads/background-design-trends.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-}
-</style>
+   
 <script src= "svg.js"></script>
 <script src='main.js'></script>
-<div style="text-align: center">
-    <h1 style="font-family:Georgia, 'Times New Roman', Times, serif;">Voohoo
-    </h1>
-<h3>Welcome to Voohoo! 
-  This is site contains different puzzles and trivias that will challenge your ability to solve things.</>
-</div>
-<div class="v">
-     <a href="trivia index.html"><button class="bocbutton"><h1>Trivias</h1></button></a>
-    <a href="puzzle index.html"><button class="bozbutton"><h1>Puzzles</h1></button></a>
-    <a href="Others.html"><button class="boabutton"><h1>Other</h1></button></a>
- 
-    </div>
+
+
 
 <div class="bottom">
   Created by: Albert, Daniel, Derrick, Nathan
@@ -106,5 +88,67 @@ background-size: cover;
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     
+    <style>
+        html {
+          scroll-behavior: smooth;
+        }
+        #sectionHome {
+          height: 800px;
+          background-color: rgb(0, 153, 255);
+        }
+
+        #section1 {
+          height: 800px;
+          background-color: rgb(156, 156, 245);
+        }
+        
+        #section2 {
+          height: 800px;
+          background-color: yellow;
+        }
+        </style>
+        </head>
+        <body>
+        
+    
+        <!-- home page -->
+        <div class="main" id="sectionHome">
+
+            <div style="text-align: center">
+                <h1 style="font-family:Georgia, 'Times New Roman', Times, serif;">Voohoo
+                </h1>
+            <h3>Welcome to Voohoo! 
+              This is site contains different puzzles and trivias that will challenge your ability to solve things.</>
+            </div>
+            <div class="v">
+                <a href="trivia index.html"><button class="bocbutton"><h1>Trivias</h1></button></a>
+               <a href="puzzle index.html"><button class="bozbutton"><h1>Puzzles</h1></button></a>
+               <a href="Others.html"><button class="boabutton"><h1>Other</h1></button></a>
+            
+               </div>
+           <!-- ABOUT ME PAGE -->
+            <button><a href="#section1">"About Me" page</a></button>
+          </div>
+
+        <div class="main" id="section1">
+          <h2 style="text-align: center">About Me</h2>
+          <p>Click on the link to see the "smooth" scrolling effect.</p>
+          <button><a href="#section2">Click Me to Smooth Scroll to Section 2 Below</a></button>
+          
+          <body>
+            <!-- Image/gif -->
+              <div class="v">
+                  <img src="https://thumbs.gfycat.com/RedGiganticGar-size_restricted.gif" 
+                  alt="">
+                  </div>
+          </body>
+        </div>
+        
+        <!-- SECTION 2 -->
+        <div class="main" id="section2">
+          <h2>Section 2</h2>
+
+         <button> <a href="#sectionHome">Click Me to Scroll to Home</a> </button>
+        </div>
   </body>
 </html>

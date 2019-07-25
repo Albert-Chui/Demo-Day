@@ -226,7 +226,7 @@ document.querySelector("#bss").onclick = function(){
         document.querySelector(".main-js_s_").innerHTML = "S";
         document.querySelector(".cs_s_").innerHTML = "S";
 
-        document.querySelector(".ht_m_l").innerHTML = "M"
+        document.querySelector(".ht_m_l").innerHTML = "M";
         document.querySelector(".m_a_in-jss ").innerHTML = "A";
         document.querySelector(".ma_i_n-jss").innerHTML = "I";
         document.querySelector(".mai_n_-jss").innerHTML = "N";
@@ -350,6 +350,224 @@ document.querySelector("#bss").onclick = function(){
     }
 
     }
+document.querySelector("#check").onclick = function check() {
+if (
+    document.querySelector("._h_tml").innerHTML === "H" &&
+    document.querySelector(".h_t_ml").innerHTML === "T" &&
+    document.querySelector(".ht_m_l").innerHTML === "M" &&
+    document.querySelector(".htm_l_").innerHTML === "L" &&
+
+
+    document.querySelector("._c_ss").innerHTML === "C" &&
+    document.querySelector(".c_o_ding ").innerHTML === "O" &&
+    document.querySelector(".co_d_ing").innerHTML === "D" &&
+    document.querySelector(".cod_i_ng").innerHTML === "I" &&
+    document.querySelector(".codi_n_g").innerHTML === "N" &&
+    document.querySelector(".codin_g_").innerHTML === "G" &&
+
+    document.querySelector("._c_ss").innerHTML === "C" &&
+    document.querySelector(".main-js_s_").innerHTML === "S" &&
+    document.querySelector(".cs_s_").innerHTML === "S" &&
+
+    document.querySelector(".ht_m_l").innerHTML === "M" &&
+    document.querySelector(".m_a_in-jss ").innerHTML === "A" &&
+    document.querySelector(".ma_i_n-jss").innerHTML ==="I" &&
+    document.querySelector(".mai_n_-jss").innerHTML === "N" &&
+    document.querySelector(".main_-_jss").innerHTML === "." &&
+    document.querySelector(".main-_j_ss").innerHTML === "J" &&
+    document.querySelector(".main-j_s_s").innerHTML === "S" &&
+    document.querySelector(".main-js_s_").innerHTML === "S" &&
+
+    document.querySelector(".mai_n_-jss").innerHTML === "N" &&
+    document.querySelector(".n_a_v").innerHTML === "A" &&
+    document.querySelector(".na_v_").innerHTML === "V" &&
+
+    document.querySelector(".main-_j_ss").innerHTML ==="J" &&
+    document.querySelector(".j_a_vascript").innerHTML === "A" &&
+    document.querySelector(".ja_v_ascript").innerHTML === "V" &&
+    document.querySelector(".jav_a_script").innerHTML === "A" &&
+    document.querySelector(".java_s_cript").innerHTML === "S" &&
+    document.querySelector(".javas_c_ript").innerHTML === "C" &&
+    document.querySelector(".javasc_r_ipt").innerHTML === "R" &&
+    document.querySelector(".javascr_i_pt").innerHTML === "I" &&
+    document.querySelector(".javascri_p_t").innerHTML === "P" &&
+    document.querySelector(".javascrip_t_").innerHTML === "T" &&
+
+    document.querySelector(".javascr_i_pt").innerHTML === "I" &&
+    document.querySelector(".i_n_dex").innerHTML === "N" &&
+    document.querySelector(".in_d_ex").innerHTML === "D" &&
+    document.querySelector(".ind_e_x").innerHTML === "E" &&
+    document.querySelector(".inde_x_").innerHTML === "X" &&
+
+    document.querySelector(".cs_s_").innerHTML === "S" &&
+    document.querySelector(".s_t_yle").innerHTML === "T" &&
+    document.querySelector(".st_y_le").innerHTML === "Y" &&
+    document.querySelector(".sty_l_e").innerHTML === "L" &&
+    document.querySelector(".styl_e_").innerHTML ==="E" &&
+
+    document.querySelector(".javascri_p_t").innerHTML === "P"   &&    
+    document.querySelector(".p_r_ogramming").innerHTML === "R" &&
+    document.querySelector(".pr_o_gramming").innerHTML === "O" &&
+    document.querySelector(".pro_g_ramming").innerHTML === "G" &&
+    document.querySelector(".prog_r_amming").innerHTML === "R" &&
+    document.querySelector(".progr_a_mming").innerHTML === "A" &&
+    document.querySelector(".progra_m_ming").innerHTML === "M" &&
+    document.querySelector(".program_m_ing").innerHTML === "M" &&
+    document.querySelector(".programm_i_ng").innerHTML === "I" &&
+    document.querySelector(".programmi_n_g").innerHTML === "N" &&
+    document.querySelector(".programmin_g_").innerHTML === "G" )
+{
+    const display = document.getElementById('text-display');
+    display.innerHTML = "";
+    display.innerHTML = "You win";
+}
+else if (    
+document.querySelector("._h_tml").innerHTML === " " &&
+document.querySelector(".h_t_ml").innerHTML === " " &&
+document.querySelector(".ht_m_l").innerHTML === " " &&
+document.querySelector(".htm_l_").innerHTML === " " &&
+
+
+document.querySelector("._c_ss").innerHTML === " " &&
+document.querySelector(".c_o_ding ").innerHTML === " " &&
+document.querySelector(".co_d_ing").innerHTML === " " &&
+document.querySelector(".cod_i_ng").innerHTML === " " &&
+document.querySelector(".codi_n_g").innerHTML === " " &&
+document.querySelector(".codin_g_").innerHTML === " " &&
+
+document.querySelector("._c_ss").innerHTML === " " &&
+document.querySelector(".main-js_s_").innerHTML === " " &&
+document.querySelector(".cs_s_").innerHTML === " " &&
+
+document.querySelector(".ht_m_l").innerHTML === " " &&
+document.querySelector(".m_a_in-jss ").innerHTML === " " &&
+document.querySelector(".ma_i_n-jss").innerHTML ===" " &&
+document.querySelector(".mai_n_-jss").innerHTML === " " &&
+document.querySelector(".main_-_jss").innerHTML === " " &&
+document.querySelector(".main-_j_ss").innerHTML === " " &&
+document.querySelector(".main-j_s_s").innerHTML === " " &&
+document.querySelector(".main-js_s_").innerHTML === " " &&
+
+document.querySelector(".mai_n_-jss").innerHTML === " " &&
+document.querySelector(".n_a_v").innerHTML === " " &&
+document.querySelector(".na_v_").innerHTML === " " &&
+
+document.querySelector(".main-_j_ss").innerHTML ===" " &&
+document.querySelector(".j_a_vascript").innerHTML === " " &&
+document.querySelector(".ja_v_ascript").innerHTML === " " &&
+document.querySelector(".jav_a_script").innerHTML === " " &&
+document.querySelector(".java_s_cript").innerHTML === " " &&
+document.querySelector(".javas_c_ript").innerHTML === " " &&
+document.querySelector(".javasc_r_ipt").innerHTML === " " &&
+document.querySelector(".javascr_i_pt").innerHTML === " " &&
+document.querySelector(".javascri_p_t").innerHTML === " " &&
+document.querySelector(".javascrip_t_").innerHTML === " " &&
+
+document.querySelector(".javascr_i_pt").innerHTML === " " &&
+document.querySelector(".i_n_dex").innerHTML === " " &&
+document.querySelector(".in_d_ex").innerHTML === " " &&
+document.querySelector(".ind_e_x").innerHTML === " " &&
+document.querySelector(".inde_x_").innerHTML === " " &&
+
+document.querySelector(".cs_s_").innerHTML === " " &&
+document.querySelector(".s_t_yle").innerHTML === " " &&
+document.querySelector(".st_y_le").innerHTML === " " &&
+document.querySelector(".sty_l_e").innerHTML === " " &&
+document.querySelector(".styl_e_").innerHTML ===" " &&
+
+document.querySelector(".javascri_p_t").innerHTML ===  " "   &&    
+document.querySelector(".p_r_ogramming").innerHTML === " " &&
+document.querySelector(".pr_o_gramming").innerHTML === " " &&
+document.querySelector(".pro_g_ramming").innerHTML === " " &&
+document.querySelector(".prog_r_amming").innerHTML === " " &&
+document.querySelector(".progr_a_mming").innerHTML === " " &&
+document.querySelector(".progra_m_ming").innerHTML === " " &&
+document.querySelector(".program_m_ing").innerHTML === " " &&
+document.querySelector(".programm_i_ng").innerHTML === " " &&
+document.querySelector(".programmi_n_g").innerHTML === " " &&
+document.querySelector(".programmin_g_").innerHTML === " " )
+{
+    let display = document.getElementById('text-display');
+    display.innerHTML = "";
+    display.innerHTML = "Fill Something In";
+}
+else if (
+    document.querySelector("._h_tml").innerHTML === null &&
+    document.querySelector(".h_t_ml").innerHTML === null &&
+    document.querySelector(".ht_m_l").innerHTML === null &&
+    document.querySelector(".htm_l_").innerHTML === null &&
+    
+    
+    document.querySelector("._c_ss").innerHTML === null &&
+    document.querySelector(".c_o_ding ").innerHTML === null &&
+    document.querySelector(".co_d_ing").innerHTML === null &&
+    document.querySelector(".cod_i_ng").innerHTML === null &&
+    document.querySelector(".codi_n_g").innerHTML === null &&
+    document.querySelector(".codin_g_").innerHTML === null &&
+    
+    document.querySelector("._c_ss").innerHTML === null &&
+    document.querySelector(".main-js_s_").innerHTML === null &&
+    document.querySelector(".cs_s_").innerHTML === null &&
+    
+    document.querySelector(".ht_m_l").innerHTML === null &&
+    document.querySelector(".m_a_in-jss ").innerHTML === null &&
+    document.querySelector(".ma_i_n-jss").innerHTML ===null &&
+    document.querySelector(".mai_n_-jss").innerHTML === null &&
+    document.querySelector(".main_-_jss").innerHTML === null &&
+    document.querySelector(".main-_j_ss").innerHTML === null &&
+    document.querySelector(".main-j_s_s").innerHTML === null &&
+    document.querySelector(".main-js_s_").innerHTML === null &&
+    
+    document.querySelector(".mai_n_-jss").innerHTML === null &&
+    document.querySelector(".n_a_v").innerHTML === null &&
+    document.querySelector(".na_v_").innerHTML === null &&
+    
+    document.querySelector(".main-_j_ss").innerHTML ===null &&
+    document.querySelector(".j_a_vascript").innerHTML === null &&
+    document.querySelector(".ja_v_ascript").innerHTML === null &&
+    document.querySelector(".jav_a_script").innerHTML === null &&
+    document.querySelector(".java_s_cript").innerHTML === null &&
+    document.querySelector(".javas_c_ript").innerHTML === null &&
+    document.querySelector(".javasc_r_ipt").innerHTML === null &&
+    document.querySelector(".javascr_i_pt").innerHTML === null &&
+    document.querySelector(".javascri_p_t").innerHTML === null &&
+    document.querySelector(".javascrip_t_").innerHTML === null &&
+    
+    document.querySelector(".javascr_i_pt").innerHTML === null &&
+    document.querySelector(".i_n_dex").innerHTML === null &&
+    document.querySelector(".in_d_ex").innerHTML === null &&
+    document.querySelector(".ind_e_x").innerHTML === null &&
+    document.querySelector(".inde_x_").innerHTML === null &&
+    
+    document.querySelector(".cs_s_").innerHTML === null &&
+    document.querySelector(".s_t_yle").innerHTML === null &&
+    document.querySelector(".st_y_le").innerHTML === null &&
+    document.querySelector(".sty_l_e").innerHTML === null &&
+    document.querySelector(".styl_e_").innerHTML ===null &&
+    
+    document.querySelector(".javascri_p_t").innerHTML ===  null   &&   
+    document.querySelector(".p_r_ogramming").innerHTML === null &&
+    document.querySelector(".pr_o_gramming").innerHTML === null &&
+    document.querySelector(".pro_g_ramming").innerHTML === null &&
+    document.querySelector(".prog_r_amming").innerHTML === null &&
+    document.querySelector(".progr_a_mming").innerHTML === null &&
+    document.querySelector(".progra_m_ming").innerHTML === null &&
+    document.querySelector(".program_m_ing").innerHTML === null &&
+    document.querySelector(".programm_i_ng").innerHTML === null &&
+    document.querySelector(".programmi_n_g").innerHTML === null &&
+    document.querySelector(".programmin_g_").innerHTML === null
+    
+) {
+    let display = document.getElementById('text-display');
+    display.innerHTML = "";
+    display.innerHTML = "Fill Something In";
+}
+else {
+    let display = document.getElementById('text-display');
+    display.innerHTML = "";
+    display.innerHTML = "You Got Some wrong";
+}
+}
 
 /* This doesnt work because i used inputs inside divs
 var container = document.getElementsByClassName("grid-container")[0];

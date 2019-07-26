@@ -632,14 +632,14 @@ document.querySelector(".programmin_g_").innerHTML === undefined
     let display = document.getElementById('text-display');
     display.innerHTML = "";
     display.innerHTML = "Fill Something In";
-}
+}/*
 else if (
     document.querySelector("._h_tml").innerHTML === <input type = "text" class = "h noline" maxlength="1" onkeydown="replace()" style="text-transform:uppercase"></input>
 ){
     let display = document.getElementById('text-display');
     display.innerHTML = "";
     display.innerHTML = "Fill Something In";
-}
+}*/
 else {
     let display = document.getElementById('text-display');
     display.innerHTML = "";

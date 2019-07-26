@@ -122,6 +122,12 @@ color: white;
     grid-area : 4/23/5/25;
     padding-left : 5px;
 }
+#droponetwo{
+Width: 50px;
+}
+#droptwotwo{
+width: 50px;
+}
 #bss {
     grid-area : 3/31/4/32;
     background-color: bisque;
@@ -129,9 +135,14 @@ color: white;
     height: 30px;
 
 }
+#bst{
+    color: green;
+    grid-area: 4/31/5/32;
+}
 #dog {
-    grid-area : 4/30/5/31;
-    color: white;
+    grid-area : 2/31/3/32;
+    color: Red;
+    text-align: center;
 }
 .square {
     height: 50px;

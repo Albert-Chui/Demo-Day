@@ -9,8 +9,8 @@ var hi = document.querySelector(".noline").value;
 var res = hi.toUpperCase();
 hi.innerHTML = res;
 }*/
-
-
+console.log (document.querySelector(".main-js_s_").innerHTML )
+console.log (document.querySelector("._h_tml").innerHTML)
 
 function changeText(text)
 {
@@ -562,13 +562,96 @@ else if (
     display.innerHTML = "";
     display.innerHTML = "Fill Something In";
 }
+else if (
+document.querySelector("._h_tml").innerHTML === undefined &&
+document.querySelector(".h_t_ml").innerHTML === undefined &&
+document.querySelector(".ht_m_l").innerHTML === undefined &&
+document.querySelector(".htm_l_").innerHTML === undefined &&
+
+
+document.querySelector("._c_ss").innerHTML === undefined &&
+document.querySelector(".c_o_ding ").innerHTML === undefined &&
+document.querySelector(".co_d_ing").innerHTML === undefined &&
+document.querySelector(".cod_i_ng").innerHTML === undefined &&
+document.querySelector(".codi_n_g").innerHTML === undefined &&
+document.querySelector(".codin_g_").innerHTML === undefined &&
+
+document.querySelector("._c_ss").innerHTML === undefined &&
+document.querySelector(".main-js_s_").innerHTML === undefined &&
+document.querySelector(".cs_s_").innerHTML === undefined &&
+
+document.querySelector(".ht_m_l").innerHTML === undefined &&
+document.querySelector(".m_a_in-jss ").innerHTML === undefined &&
+document.querySelector(".ma_i_n-jss").innerHTML ===undefined &&
+document.querySelector(".mai_n_-jss").innerHTML === undefined &&
+document.querySelector(".main_-_jss").innerHTML === undefined &&
+document.querySelector(".main-_j_ss").innerHTML === undefined &&
+document.querySelector(".main-j_s_s").innerHTML === undefined &&
+document.querySelector(".main-js_s_").innerHTML === undefined &&
+
+document.querySelector(".mai_n_-jss").innerHTML === undefined &&
+document.querySelector(".n_a_v").innerHTML === undefined &&
+document.querySelector(".na_v_").innerHTML === undefined &&
+
+document.querySelector(".main-_j_ss").innerHTML ===undefined &&
+document.querySelector(".j_a_vascript").innerHTML === undefined &&
+document.querySelector(".ja_v_ascript").innerHTML === undefined &&
+document.querySelector(".jav_a_script").innerHTML === undefined &&
+document.querySelector(".java_s_cript").innerHTML === undefined &&
+document.querySelector(".javas_c_ript").innerHTML === undefined &&
+document.querySelector(".javasc_r_ipt").innerHTML === undefined &&
+document.querySelector(".javascr_i_pt").innerHTML === undefined &&
+document.querySelector(".javascri_p_t").innerHTML === undefined &&
+document.querySelector(".javascrip_t_").innerHTML === undefined &&
+
+document.querySelector(".javascr_i_pt").innerHTML === undefined &&
+document.querySelector(".i_n_dex").innerHTML === undefined &&
+document.querySelector(".in_d_ex").innerHTML === undefined &&
+document.querySelector(".ind_e_x").innerHTML === undefined &&
+document.querySelector(".inde_x_").innerHTML === undefined &&
+
+document.querySelector(".cs_s_").innerHTML === undefined &&
+document.querySelector(".s_t_yle").innerHTML === undefined &&
+document.querySelector(".st_y_le").innerHTML === undefined &&
+document.querySelector(".sty_l_e").innerHTML === undefined &&
+document.querySelector(".styl_e_").innerHTML ===undefined &&
+
+document.querySelector(".javascri_p_t").innerHTML ===  undefined   &&   
+document.querySelector(".p_r_ogramming").innerHTML === undefined &&
+document.querySelector(".pr_o_gramming").innerHTML === undefined &&
+document.querySelector(".pro_g_ramming").innerHTML === undefined &&
+document.querySelector(".prog_r_amming").innerHTML === undefined &&
+document.querySelector(".progr_a_mming").innerHTML === undefined &&
+document.querySelector(".progra_m_ming").innerHTML === undefined &&
+document.querySelector(".program_m_ing").innerHTML === undefined &&
+document.querySelector(".programm_i_ng").innerHTML === undefined &&
+document.querySelector(".programmi_n_g").innerHTML === undefined &&
+document.querySelector(".programmin_g_").innerHTML === undefined
+
+){
+    let display = document.getElementById('text-display');
+    display.innerHTML = "";
+    display.innerHTML = "Fill Something In";
+}
+else if (
+    document.querySelector("._h_tml").innerHTML === <input type = "text" class = "h noline" maxlength="1" onkeydown="replace()" style="text-transform:uppercase"></input>
+){
+    let display = document.getElementById('text-display');
+    display.innerHTML = "";
+    display.innerHTML = "Fill Something In";
+}
 else {
     let display = document.getElementById('text-display');
     display.innerHTML = "";
     display.innerHTML = "You Got Some wrong";
 }
 }
-
+document.querySelector("button").onmouseover = function() {
+    document.querySelector("button").style.boxShadow = "10px 20px 30px blue";
+}
+document.querySelector("button").onmouseover = function() {
+    document.querySelector("button").style.boxShadow = "";
+}
 /* This doesnt work because i used inputs inside divs
 var container = document.getElementsByClassName("grid-container")[0];
 

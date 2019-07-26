@@ -17,6 +17,7 @@ function changeText(text)
     var display = document.getElementById('text-display');
     display.innerHTML = "";
     display.innerHTML = text;
+    display.style.color = "lightslategray";
 }
      
 function defaultText()
@@ -24,6 +25,7 @@ function defaultText()
     var display = document.getElementById('text-display');
     display.innerHTML = "";
     display.innerHTML = ":Your Hint Here:";
+    display.style.color = "lightslategray";
 }
 
 var tdrop= "down"
@@ -350,7 +352,7 @@ document.querySelector("#bss").onclick = function(){
     }
 
     }
-document.querySelector("#check").onclick = function check() {
+document.querySelector("#check_all").onclick = function check() {
 if (
     document.querySelector("._h_tml").innerHTML === "H" &&
     document.querySelector(".h_t_ml").innerHTML === "T" &&
@@ -417,9 +419,15 @@ if (
     document.querySelector(".programmi_n_g").innerHTML === "N" &&
     document.querySelector(".programmin_g_").innerHTML === "G" )
 {
-    const display = document.getElementById('text-display');
-    display.innerHTML = "";
-    display.innerHTML = "You win";
+    const show = document.getElementById('text-display');
+    show.innerHTML = "";
+    show.style.color = "green";
+    show.innerHTML = "You win";
+    //show.style.color = "lightslategray";
+    //let winscreen = document.querySelector("#screen");
+    //winscreen.style.background = "url('https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiQ6uyVldPjAhWCCjQIHSBGCvUQjRx6BAgBEAU&url=%2Furl%3Fsa%3Di%26source%3Dimages%26cd%3D%26ved%3D2ahUKEwiQ6uyVldPjAhWCCjQIHSBGCvUQjRx6BAgBEAU%26url%3Dhttps%253A%252F%252Fwww.vecteezy.com%252Ffree-vector%252Fconfetti%26psig%3DAOvVaw2kHD_Wgmebxr1fQtHWp0z6%26ust%3D1564250451633762&psig=AOvVaw2kHD_Wgmebxr1fQtHWp0z6&ust=1564250451633762');"
+    document.body.style.backgroundImage = "url('https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiQ6uyVldPjAhWCCjQIHSBGCvUQjRx6BAgBEAU&url=%2Furl%3Fsa%3Di%26source%3Dimages%26cd%3D%26ved%3D2ahUKEwiQ6uyVldPjAhWCCjQIHSBGCvUQjRx6BAgBEAU%26url%3Dhttps%253A%252F%252Fwww.vecteezy.com%252Ffree-vector%252Fconfetti%26psig%3DAOvVaw2kHD_Wgmebxr1fQtHWp0z6%26ust%3D1564250451633762&psig=AOvVaw2kHD_Wgmebxr1fQtHWp0z6&ust=1564250451633762')";
+
 }
 else if (    
 document.querySelector("._h_tml").innerHTML === " " &&
@@ -487,9 +495,11 @@ document.querySelector(".programm_i_ng").innerHTML === " " &&
 document.querySelector(".programmi_n_g").innerHTML === " " &&
 document.querySelector(".programmin_g_").innerHTML === " " )
 {
-    let display = document.getElementById('text-display');
-    display.innerHTML = "";
-    display.innerHTML = "Fill Something In";
+    let show = document.getElementById('text-display');
+    show.innerHTML = "";
+   show.style.color = "blue";
+    show.innerHTML = "Fill Something In";
+    //show.style.color = "lightslategray";
 }
 else if (
     document.querySelector("._h_tml").innerHTML === null &&
@@ -641,9 +651,11 @@ else if (
     display.innerHTML = "Fill Something In";
 }*/
 else {
-    let display = document.getElementById('text-display');
-    display.innerHTML = "";
-    display.innerHTML = "You Got Some wrong";
+    let show = document.getElementById('text-display');
+    show.innerHTML = "";
+    show.style.color = "black";
+    show.innerHTML = "You Got Some wrong";
+    //show.style.color = "lightslategray";
 }
 }
 document.querySelector("button").onmouseover = function() {

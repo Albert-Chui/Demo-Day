@@ -110,6 +110,10 @@ color: white;
     Height: 40px;
     text-align: center;
 }
+#check_all {
+    grid-area : 5/21/6/25;
+    Text-align: center;
+}
 #hi {
     grid-area : 2/21/3/25;
     text-align: center;

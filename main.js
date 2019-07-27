@@ -9,8 +9,8 @@ var hi = document.querySelector(".noline").value;
 var res = hi.toUpperCase();
 hi.innerHTML = res;
 }*/
-console.log (document.querySelector(".main-js_s_").innerHTML )
-console.log (document.querySelector("._h_tml").innerHTML)
+console.log (document.querySelector(".main-js_s_").innerHTML );
+console.log (document.querySelector("._h_tml").innerHTML);
 
 function changeText(text)
 {
@@ -426,7 +426,7 @@ if (
     //show.style.color = "lightslategray";
     //let winscreen = document.querySelector("#screen");
     //winscreen.style.background = "url('https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiQ6uyVldPjAhWCCjQIHSBGCvUQjRx6BAgBEAU&url=%2Furl%3Fsa%3Di%26source%3Dimages%26cd%3D%26ved%3D2ahUKEwiQ6uyVldPjAhWCCjQIHSBGCvUQjRx6BAgBEAU%26url%3Dhttps%253A%252F%252Fwww.vecteezy.com%252Ffree-vector%252Fconfetti%26psig%3DAOvVaw2kHD_Wgmebxr1fQtHWp0z6%26ust%3D1564250451633762&psig=AOvVaw2kHD_Wgmebxr1fQtHWp0z6&ust=1564250451633762');"
-    document.body.style.backgroundImage = "url('https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiQ6uyVldPjAhWCCjQIHSBGCvUQjRx6BAgBEAU&url=%2Furl%3Fsa%3Di%26source%3Dimages%26cd%3D%26ved%3D2ahUKEwiQ6uyVldPjAhWCCjQIHSBGCvUQjRx6BAgBEAU%26url%3Dhttps%253A%252F%252Fwww.vecteezy.com%252Ffree-vector%252Fconfetti%26psig%3DAOvVaw2kHD_Wgmebxr1fQtHWp0z6%26ust%3D1564250451633762&psig=AOvVaw2kHD_Wgmebxr1fQtHWp0z6&ust=1564250451633762')";
+    document.body.style.backgroundImage = "url('https://static.vecteezy.com/system/resources/previews/000/154/773/large_2x/free-colorful-serpentine-and-confetti-background-vector.jpg')";
 
 }
 else if (    
